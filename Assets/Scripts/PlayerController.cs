@@ -10,8 +10,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float FORCE_SCALE = 150f;
     
+    private static float JUMP_NORMAL = 14;
+    private static float JUMP_SMALL = 9.5f;
+    private static float JUMP_LARGE = 20f;
+
     [SerializeField]
-    private float JUMP_VELOCITY = 14f;
+    private float JUMP_VELOCITY = JUMP_NORMAL;
 
     [SerializeField]
     float VELOCITY_CLAMP = 10f;
@@ -28,6 +32,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     SpriteRenderer sr;
     private bool grounded = true;
+    private bool sizeMaskActive = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,6 +40,7 @@ public class PlayerController : MonoBehaviour
         sr = gameObject.GetComponent<SpriteRenderer>();
         moveAction = InputSystem.actions.FindAction(secondPlayer ? "Move1" : "Move2");
         jumpAction = InputSystem.actions.FindAction("Jump1");
+        
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -51,6 +57,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         sr.color = grounded ? Color.red : Color.blue;
+        if (jumpAction.triggered)
+        {
+            sizeMaskActive = !sizeMaskActive;
+            gameObject.transform.localScale = sizeMaskActive ? (secondPlayer ? new Vector3(2, 2, 2) : new Vector3(.5f, .5f, .5f)) : new Vector3(1, 1, 1);
+            JUMP_VELOCITY = sizeMaskActive ? (secondPlayer ? JUMP_LARGE : JUMP_SMALL) : JUMP_NORMAL;
+        }
     }
     void FixedUpdate()
     {
