@@ -23,16 +23,24 @@ public class PlayerController : MonoBehaviour
     InputAction moveAction;
     InputAction jumpAction;
 
+    [SerializeField]
+    bool secondPlayer = false;
     Rigidbody2D rb;
-    private bool grounded = false;
+    SpriteRenderer sr;
+    private bool grounded = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        moveAction = InputSystem.actions.FindAction("Move");
-        jumpAction = InputSystem.actions.FindAction("Jump");
+        sr = gameObject.GetComponent<SpriteRenderer>();
+        moveAction = InputSystem.actions.FindAction(secondPlayer ? "Move1" : "Move2");
+        jumpAction = InputSystem.actions.FindAction("Jump1");
     }
     void OnTriggerEnter2D(Collider2D other)
+    {
+        grounded = true;
+    }
+    void OnTriggerStay2D(Collider2D other)
     {
         grounded = true;
     }
@@ -40,14 +48,19 @@ public class PlayerController : MonoBehaviour
     {
         grounded = false;
     }
+    void Update()
+    {
+        sr.color = grounded ? Color.red : Color.blue;
+    }
     void FixedUpdate()
     {
         float moveInputX = moveAction.ReadValue<Vector2>().x;
+        bool jumpPressed = moveAction.ReadValue<Vector2>().y > 0;
         if ((moveInputX < 0 && rb.linearVelocityX > -VELOCITY_CLAMP) || (moveInputX > 0 && rb.linearVelocityX < VELOCITY_CLAMP))
         {
             rb.AddForceX(FORCE_SCALE * moveInputX);
         }
-        if (CheckGround() && jumpAction.IsPressed())
+        if (CheckGround() && jumpPressed)
         {
             gameObject.GetComponent<Rigidbody2D>().linearVelocityY = JUMP_VELOCITY;
         }
@@ -56,7 +69,8 @@ public class PlayerController : MonoBehaviour
     }
         public bool CheckGround()
     {
-        float _distanceToTheGround = GetComponent<Collider2D>().bounds.extents.y;
-        return Physics2D.Raycast(transform.position, Vector2.down, _distanceToTheGround + 0.1f);
+        // float _distanceToTheGround = GetComponent<Collider2D>().bounds.extents.y;
+        // return Physics2D.Raycast(transform.position, Vector2.down, _distanceToTheGround + 0.1f);
+        return grounded;
     }
 }
