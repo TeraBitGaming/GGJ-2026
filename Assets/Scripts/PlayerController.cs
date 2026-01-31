@@ -68,13 +68,22 @@ public class PlayerController : MonoBehaviour
     {
         float moveInputX = moveAction.ReadValue<Vector2>().x;
         bool jumpPressed = moveAction.ReadValue<Vector2>().y > 0;
+
+        if (moveInputX > 0.01f)
+        {
+           sr.flipX = false; 
+        } else if (moveInputX < -0.01f)
+        {
+            sr.flipX = true;
+        }
+
         if ((moveInputX < 0 && rb.linearVelocityX > -VELOCITY_CLAMP) || (moveInputX > 0 && rb.linearVelocityX < VELOCITY_CLAMP))
         {
             rb.AddForceX(FORCE_SCALE * moveInputX);
         }
         if (CheckGround() && jumpPressed)
         {
-            gameObject.GetComponent<Rigidbody2D>().linearVelocityY = JUMP_VELOCITY;
+            rb.linearVelocityY = JUMP_VELOCITY;
         }
         float dragX = CheckGround() ? GROUND_DRAG_X : DRAG_X;
         rb.AddForceX(-dragX* rb.linearVelocityX);
