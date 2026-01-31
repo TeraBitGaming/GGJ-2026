@@ -110,8 +110,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
 
-        float moveInputX = moveAction.ReadValue<Vector2>().x;
-        bool jumpPressed = moveAction.ReadValue<Vector2>().y > 0;
+        float moveInputX = moveAction.ReadValue<float>();
 
         // -------------------
         // Flip sprite direction
@@ -137,15 +136,6 @@ public class PlayerController : MonoBehaviour
         if ((moveInputX < 0 && rb.linearVelocityX > -VELOCITY_CLAMP) || (moveInputX > 0 && rb.linearVelocityX < VELOCITY_CLAMP))
         {
             rb.AddForceX(FORCE_SCALE * moveInputX);
-        }
-
-        // -------------------
-        // Jump
-        // -------------------
-
-        if (CheckGround() && jumpPressed)
-        {
-            rb.linearVelocityY = JUMP_VELOCITY;
         }
 
         // -------------------
