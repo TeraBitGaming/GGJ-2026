@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.RenderGraphModule;
+using static UnityEngine.InputManagerEntry;
 
 public class PlayerController : MonoBehaviour
 {
@@ -27,10 +28,13 @@ public class PlayerController : MonoBehaviour
     InputAction moveAction;
     InputAction jumpAction;
 
+    InputAction toggleMaskAction;
     [SerializeField]
     bool secondPlayer = false;
     Rigidbody2D rb;
     SpriteRenderer sr;
+    BoxCollider2D hitbox;
+    BoxCollider2D feet;
     private bool grounded = true;
     private bool sizeMaskActive = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -38,9 +42,17 @@ public class PlayerController : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         sr = gameObject.GetComponent<SpriteRenderer>();
-        moveAction = InputSystem.actions.FindAction(secondPlayer ? "Move1" : "Move2");
-        jumpAction = InputSystem.actions.FindAction("Jump1");
-        
+        moveAction = InputSystem.actions.FindAction(secondPlayer ? "Move2" : "Move1");
+        jumpAction = InputSystem.actions.FindAction(secondPlayer ? "Jump2" : "Jump1");
+        toggleMaskAction = InputSystem.actions.FindAction("ToggleMask");
+        foreach (var col in GetComponents<BoxCollider2D>()) {
+            if (col.isTrigger) {
+                feet = col;
+            } else
+            {
+                hitbox = col;
+            }
+        }
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -57,18 +69,23 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         sr.color = grounded ? Color.red : Color.blue;
-        if (jumpAction.triggered)
+        if (toggleMaskAction.triggered)
         {
             sizeMaskActive = !sizeMaskActive;
-            gameObject.transform.localScale = sizeMaskActive ? (secondPlayer ? new Vector3(2, 2, 2) : new Vector3(.5f, .5f, .5f)) : new Vector3(1, 1, 1);
+            float scaleFactor = sizeMaskActive ? (secondPlayer ? 2 : .5f) : 1;
+            gameObject.transform.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
             JUMP_VELOCITY = sizeMaskActive ? (secondPlayer ? JUMP_LARGE : JUMP_SMALL) : JUMP_NORMAL;
+            hitbox.edgeRadius = 0.1f * scaleFactor;
         }
+        if (CheckGround() && jumpAction.triggered)
+        {
+            rb.linearVelocityY = JUMP_VELOCITY;
+        }
+
     }
     void FixedUpdate()
     {
-        float moveInputX = moveAction.ReadValue<Vector2>().x;
-        bool jumpPressed = moveAction.ReadValue<Vector2>().y > 0;
-
+        float moveInputX = moveAction.ReadValue<float>();
         if (moveInputX > 0.01f)
         {
            sr.flipX = false; 
@@ -80,10 +97,6 @@ public class PlayerController : MonoBehaviour
         if ((moveInputX < 0 && rb.linearVelocityX > -VELOCITY_CLAMP) || (moveInputX > 0 && rb.linearVelocityX < VELOCITY_CLAMP))
         {
             rb.AddForceX(FORCE_SCALE * moveInputX);
-        }
-        if (CheckGround() && jumpPressed)
-        {
-            rb.linearVelocityY = JUMP_VELOCITY;
         }
         float dragX = CheckGround() ? GROUND_DRAG_X : DRAG_X;
         rb.AddForceX(-dragX* rb.linearVelocityX);
