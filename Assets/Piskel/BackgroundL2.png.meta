@@ -1,10 +1,37 @@
 fileFormatVersion: 2
-guid: c0e1b2bb48790a94bbe750799fb1e477
+guid: 68bed134baad61d469b8fb3675162513
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 493629459481976083
-    second: celticBorder_0
+      213: -6203227213422794267
+    second: BackgroundL2_0
+  - first:
+      213: 4788059943327544600
+    second: BackgroundL2_1
+  - first:
+      213: 6381176539521222811
+    second: BackgroundL2_2
+  - first:
+      213: 4425790938341920010
+    second: BackgroundL2_3
+  - first:
+      213: 3382831160172394447
+    second: BackgroundL2_4
+  - first:
+      213: -9204745317214997190
+    second: BackgroundL2_5
+  - first:
+      213: 772919981585486864
+    second: BackgroundL2_6
+  - first:
+      213: -8336217403731188412
+    second: BackgroundL2_7
+  - first:
+      213: 691582394783803816
+    second: BackgroundL2_8
+  - first:
+      213: -3635943006283447478
+    second: BackgroundL2_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,9 +78,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
-  spriteBorder: {x: 18, y: 18, z: 18, w: 18}
-  spriteGenerateFallbackPhysicsShape: 0
+  spritePixelsToUnits: 144
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -73,7 +100,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -113,177 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: celticBorder_0
+      name: BackgroundL2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 29
-        width: 18
-        height: 18
+        y: 122
+        width: 31
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31d5717c069b9d600800000000000000
-      internalID: 493629459481976083
+      spriteID: 5e9e5ea27b5b9e9a0800000000000000
+      internalID: -6203227213422794267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celticBorder_1
+      name: BackgroundL2_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 29
-        width: 11
-        height: 18
+        x: 75
+        y: 124
+        width: 45
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a1ad50662ab5bcc46a19aab5f41f563d
-      internalID: -664114735
+      spriteID: 815b055762b927240800000000000000
+      internalID: 4788059943327544600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celticBorder_2
+      name: BackgroundL2_2
       rect:
         serializedVersion: 2
-        x: 29
-        y: 29
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c2a5691b8362dd42a1960833f683d96
-      internalID: 520771923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: celticBorder_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 18
-        width: 18
+        x: 128
+        y: 114
+        width: 23
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 48e86a14001657b4fa3677bc2edd92e1
-      internalID: -293737107
+      spriteID: b980837f04e7e8850800000000000000
+      internalID: 6381176539521222811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celticBorder_4
+      name: BackgroundL2_3
       rect:
         serializedVersion: 2
-        x: 29
-        y: 18
-        width: 18
+        x: 162
+        y: 115
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d430ad8619b6d30800000000000000
+      internalID: 4425790938341920010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundL2_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 104
+        width: 57
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7b235640b32fe20800000000000000
+      internalID: 3382831160172394447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundL2_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 96
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35b57f17ec224080800000000000000
+      internalID: -9204745317214997190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundL2_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 93
+        width: 40
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3e75bd4edf3f74c44aae2e3a75da1488
-      internalID: 1710862921
+      spriteID: 014543ec0a6f9ba00800000000000000
+      internalID: 772919981585486864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celticBorder_5
+      name: BackgroundL2_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 18
-        height: 18
+        x: 10
+        y: 87
+        width: 39
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 147a9507a56b02c4fb72ca87338a57bd
-      internalID: -1189497417
+      spriteID: 4456c20407ecf4c80800000000000000
+      internalID: -8336217403731188412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celticBorder_6
+      name: BackgroundL2_8
       rect:
         serializedVersion: 2
-        x: 18
-        y: 0
-        width: 11
-        height: 18
+        x: 157
+        y: 87
+        width: 37
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 127703e958cf044448b479722d6f18ea
-      internalID: 1232688462
+      spriteID: 8a9a00e168ef89900800000000000000
+      internalID: 691582394783803816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: celticBorder_7
+      name: BackgroundL2_9
       rect:
         serializedVersion: 2
-        x: 29
-        y: 0
-        width: 18
-        height: 18
+        x: 200
+        y: 77
+        width: 28
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 493878677cd1aee42ad32593fc8a0f71
-      internalID: 1341077710
+      spriteID: a43c8ee89198a8dc0800000000000000
+      internalID: -3635943006283447478
       vertices: []
       indices: 
       edges: []
@@ -292,26 +363,26 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f8ca22f21ff189747979fe946d704b12
-    internalID: -1892462801
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":15.0,"y":15.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      celticBorder_0: 493629459481976083
-      celticBorder_1: -664114735
-      celticBorder_2: 520771923
-      celticBorder_3: -293737107
-      celticBorder_4: 1710862921
-      celticBorder_5: -1189497417
-      celticBorder_6: 1232688462
-      celticBorder_7: 1341077710
+      BackgroundL2_0: -6203227213422794267
+      BackgroundL2_1: 4788059943327544600
+      BackgroundL2_2: 6381176539521222811
+      BackgroundL2_3: 4425790938341920010
+      BackgroundL2_4: 3382831160172394447
+      BackgroundL2_5: -9204745317214997190
+      BackgroundL2_6: 772919981585486864
+      BackgroundL2_7: -8336217403731188412
+      BackgroundL2_8: 691582394783803816
+      BackgroundL2_9: -3635943006283447478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
