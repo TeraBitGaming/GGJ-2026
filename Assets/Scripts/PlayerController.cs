@@ -54,6 +54,8 @@ public class PlayerController : MonoBehaviour
 
     //Animator Parameters
     private static readonly int SpeedHash = Animator.StringToHash("Speed");
+    private static readonly int VerticalSpeedHash = Animator.StringToHash("VerticalSpeed");
+    private static readonly int GroundedHash = Animator.StringToHash("Grounded");
 
     void Awake()
     {        
@@ -126,9 +128,14 @@ public class PlayerController : MonoBehaviour
         }
 
         // -------------------
-        // Run Animation
+        // Animations
         // -------------------
+        //Run
         animator.SetFloat(SpeedHash, Mathf.Abs(rb.linearVelocityX));
+
+        //Jump
+        animator.SetBool(GroundedHash, grounded);
+        animator.SetFloat(VerticalSpeedHash, rb.linearVelocityY);
 
         // -------------------
         // Horizontal movement

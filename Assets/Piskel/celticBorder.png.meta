@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1abc4c721b492354ca1f97a73874f6e6
+guid: c0e1b2bb48790a94bbe750799fb1e477
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3268973727523099093
-    second: Groundterrain-Sheet_0
+      213: 493629459481976083
+    second: celticBorder_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,20 +40,20 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteBorder: {x: 18, y: 18, z: 18, w: 18}
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -73,7 +73,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Groundterrain-Sheet_0
+      name: celticBorder_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 0
+        y: 29
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d15911194abd5d20800000000000000
-      internalID: 3268973727523099093
+      spriteID: 31d5717c069b9d600800000000000000
+      internalID: 493629459481976083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_1
+      name: celticBorder_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
+        x: 18
+        y: 29
+        width: 11
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c64feb9d8be86bf4ca2e5c4c00ef296e
-      internalID: 1678183544
+      spriteID: a1ad50662ab5bcc46a19aab5f41f563d
+      internalID: -664114735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_2
+      name: celticBorder_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
+        x: 29
+        y: 29
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5162132084f51d04aab1ce46de0143bc
-      internalID: -1325083122
+      spriteID: 5c2a5691b8362dd42a1960833f683d96
+      internalID: 520771923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_3
+      name: celticBorder_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 18
+        width: 18
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7d60cb22d36ea34185c5cb1bc82992d
-      internalID: -667626608
+      spriteID: 48e86a14001657b4fa3677bc2edd92e1
+      internalID: -293737107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_4
+      name: celticBorder_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 29
+        y: 18
+        width: 18
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,64 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89ceba6f65be0ba45ab60fd11d23a13e
-      internalID: -2089651898
+      spriteID: 3e75bd4edf3f74c44aae2e3a75da1488
+      internalID: 1710862921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63c217e58623a9f4ba56e70f918c06ee
-      internalID: -1449031064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Groundterrain-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af316640d7875a04c97dd6258e888aa3
-      internalID: 1148525179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Groundterrain-Sheet_7
+      name: celticBorder_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db01c69f404edc74a92e5d4f2ecf4585
-      internalID: 764769381
+      spriteID: 147a9507a56b02c4fb72ca87338a57bd
+      internalID: -1189497417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_8
+      name: celticBorder_6
       rect:
         serializedVersion: 2
-        x: 32
+        x: 18
         y: 0
-        width: 32
-        height: 32
+        width: 11
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f920a746c17b82546b95e283b693a3f1
-      internalID: -1912997094
+      spriteID: 127703e958cf044448b479722d6f18ea
+      internalID: 1232688462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_9
+      name: celticBorder_7
       rect:
         serializedVersion: 2
-        x: 64
+        x: 29
         y: 0
-        width: 32
-        height: 32
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,30 +282,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cadd06a5890e044db26e15ba3195598
-      internalID: -730634566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Groundterrain-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc8cfc676d36f584eb26f5856d59836a
-      internalID: -2144874662
+      spriteID: 493878677cd1aee42ad32593fc8a0f71
+      internalID: 1341077710
       vertices: []
       indices: 
       edges: []
@@ -358,8 +292,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8acd8d55f0120004dbbede0b065e41bc
-    internalID: 0
+    spriteID: f8ca22f21ff189747979fe946d704b12
+    internalID: -1892462801
     vertices: []
     indices: 
     edges: []
@@ -368,19 +302,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":15.0,"y":15.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Groundterrain-Sheet_0: 3268973727523099093
-      Groundterrain-Sheet_1: 1678183544
-      Groundterrain-Sheet_10: -2144874662
-      Groundterrain-Sheet_2: -1325083122
-      Groundterrain-Sheet_3: -667626608
-      Groundterrain-Sheet_4: -2089651898
-      Groundterrain-Sheet_5: -1449031064
-      Groundterrain-Sheet_6: 1148525179
-      Groundterrain-Sheet_7: 764769381
-      Groundterrain-Sheet_8: -1912997094
-      Groundterrain-Sheet_9: -730634566
+      celticBorder_0: 493629459481976083
+      celticBorder_1: -664114735
+      celticBorder_2: 520771923
+      celticBorder_3: -293737107
+      celticBorder_4: 1710862921
+      celticBorder_5: -1189497417
+      celticBorder_6: 1232688462
+      celticBorder_7: 1341077710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
