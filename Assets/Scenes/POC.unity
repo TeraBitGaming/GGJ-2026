@@ -1479,16 +1479,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1429484493}
   m_SourcePrefab: {fileID: 100100000, guid: 63b8df5801fd45aca9ca67b02f78cfca, type: 3}
->>>>>>> 7d830c5948cd03789d3266b2a4db47a457b592da
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 777733564}
-<<<<<<< HEAD
-  - {fileID: 1517095965}
-=======
->>>>>>> 7d830c5948cd03789d3266b2a4db47a457b592da
   - {fileID: 601111313}
   - {fileID: 1176737842}
   - {fileID: 1321344356}
@@ -1505,10 +1500,6 @@ SceneRoots:
   - {fileID: 983954812}
   - {fileID: 667753072}
   - {fileID: 806002114}
-<<<<<<< HEAD
-  - {fileID: 3222632358137493002}
-=======
   - {fileID: 6696194717009347687}
   - {fileID: 1557805950}
   - {fileID: 239731585}
->>>>>>> 7d830c5948cd03789d3266b2a4db47a457b592da
