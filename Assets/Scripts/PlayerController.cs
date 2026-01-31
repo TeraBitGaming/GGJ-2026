@@ -35,6 +35,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     public bool secondPlayer = false;
 
+    [SerializeField]
+    bool ignorePlayerCollision = false;
     //Input
     InputAction moveAction;
     InputAction jumpAction;
@@ -80,6 +82,10 @@ public class PlayerController : MonoBehaviour
                 hitbox = col;
             }
         }
+        if (ignorePlayerCollision)
+        {
+            Physics2D.IgnoreLayerCollision(6, 6);
+        }
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -95,7 +101,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        sr.color = grounded ? Color.red : Color.blue;
+        sr.color = grounded ? (secondPlayer ? Color.red : Color.orange) : (secondPlayer ? Color.purple : Color.blue);
         if (toggleMaskAction.triggered)
         {
             sizeMaskActive = !sizeMaskActive;
