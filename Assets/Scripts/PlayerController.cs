@@ -6,11 +6,18 @@ using UnityEngine.Rendering;
 using UnityEngine.Rendering.RenderGraphModule;
 using static UnityEngine.InputManagerEntry;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movement")]
     [SerializeField]
     private float FORCE_SCALE = 150f;
+    [SerializeField]
+    float VELOCITY_CLAMP = 10f;
     
+    [Header("Jump")]
     private static float JUMP_NORMAL = 14;
     private static float JUMP_SMALL = 9.5f;
     private static float JUMP_LARGE = 20f;
@@ -18,25 +25,42 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float JUMP_VELOCITY = JUMP_NORMAL;
 
-    [SerializeField]
-    float VELOCITY_CLAMP = 10f;
-
+    [Header("Drag")]
     [SerializeField]
     float DRAG_X = 10;
     [SerializeField]
     float GROUND_DRAG_X = 12f;
+
+    [Header("PlayerSettings")]    
+    [SerializeField]
+    bool secondPlayer = false;
+
+    //Input
     InputAction moveAction;
     InputAction jumpAction;
 
     InputAction toggleMaskAction;
-    [SerializeField]
-    bool secondPlayer = false;
+    //Components
     Rigidbody2D rb;
     SpriteRenderer sr;
+    Animator animator;
+
+    //State
     BoxCollider2D hitbox;
     BoxCollider2D feet;
     private bool grounded = true;
     private bool sizeMaskActive = false;
+
+    //Animator Parameters
+    private static readonly int SpeedHash = Animator.StringToHash("Speed");
+
+    void Awake()
+    {        
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        sr = gameObject.GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -85,7 +109,13 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
+
         float moveInputX = moveAction.ReadValue<float>();
+
+        // -------------------
+        // Flip sprite direction
+        // -------------------
+
         if (moveInputX > 0.01f)
         {
            sr.flipX = false; 
@@ -94,13 +124,28 @@ public class PlayerController : MonoBehaviour
             sr.flipX = true;
         }
 
+        // -------------------
+        // Run Animation
+        // -------------------
+        animator.SetFloat(SpeedHash, Mathf.Abs(rb.linearVelocityX));
+
+        // -------------------
+        // Horizontal movement
+        // -------------------
+
         if ((moveInputX < 0 && rb.linearVelocityX > -VELOCITY_CLAMP) || (moveInputX > 0 && rb.linearVelocityX < VELOCITY_CLAMP))
         {
             rb.AddForceX(FORCE_SCALE * moveInputX);
         }
+
+        // -------------------
+        // Drag
+        // -------------------
+
         float dragX = CheckGround() ? GROUND_DRAG_X : DRAG_X;
         rb.AddForceX(-dragX* rb.linearVelocityX);
     }
+    
         public bool CheckGround()
     {
         // float _distanceToTheGround = GetComponent<Collider2D>().bounds.extents.y;
