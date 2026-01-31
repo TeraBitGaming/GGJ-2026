@@ -31,13 +31,14 @@ public class PlayerController : MonoBehaviour
 
     [Header("PlayerSettings")]    
     [SerializeField]
-    bool secondPlayer = false;
+    public bool secondPlayer = false;
 
     //Input
     InputAction moveAction;
     InputAction jumpAction;
 
     InputAction toggleMaskAction;
+    InputAction toggleVisionAction;
     //Components
     Rigidbody2D rb;
     SpriteRenderer sr;

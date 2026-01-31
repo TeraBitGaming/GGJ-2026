@@ -1,10 +1,37 @@
 fileFormatVersion: 2
-guid: 1abc4c721b492354ca1f97a73874f6e6
+guid: 68bed134baad61d469b8fb3675162513
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3268973727523099093
-    second: Groundterrain-Sheet_0
+      213: -6203227213422794267
+    second: BackgroundL2_0
+  - first:
+      213: 4788059943327544600
+    second: BackgroundL2_1
+  - first:
+      213: 6381176539521222811
+    second: BackgroundL2_2
+  - first:
+      213: 4425790938341920010
+    second: BackgroundL2_3
+  - first:
+      213: 3382831160172394447
+    second: BackgroundL2_4
+  - first:
+      213: -9204745317214997190
+    second: BackgroundL2_5
+  - first:
+      213: 772919981585486864
+    second: BackgroundL2_6
+  - first:
+      213: -8336217403731188412
+    second: BackgroundL2_7
+  - first:
+      213: 691582394783803816
+    second: BackgroundL2_8
+  - first:
+      213: -3635943006283447478
+    second: BackgroundL2_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,18 +67,18 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 144
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,243 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Groundterrain-Sheet_0
+      name: BackgroundL2_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 0
+        y: 122
+        width: 31
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d15911194abd5d20800000000000000
-      internalID: 3268973727523099093
+      spriteID: 5e9e5ea27b5b9e9a0800000000000000
+      internalID: -6203227213422794267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_1
+      name: BackgroundL2_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
+        x: 75
+        y: 124
+        width: 45
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c64feb9d8be86bf4ca2e5c4c00ef296e
-      internalID: 1678183544
+      spriteID: 815b055762b927240800000000000000
+      internalID: 4788059943327544600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_2
+      name: BackgroundL2_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
+        x: 128
+        y: 114
+        width: 23
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5162132084f51d04aab1ce46de0143bc
-      internalID: -1325083122
+      spriteID: b980837f04e7e8850800000000000000
+      internalID: 6381176539521222811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_3
+      name: BackgroundL2_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
+        x: 162
+        y: 115
+        width: 58
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c7d60cb22d36ea34185c5cb1bc82992d
-      internalID: -667626608
+      spriteID: a0d430ad8619b6d30800000000000000
+      internalID: 4425790938341920010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_4
+      name: BackgroundL2_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 33
+        y: 104
+        width: 57
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 89ceba6f65be0ba45ab60fd11d23a13e
-      internalID: -2089651898
+      spriteID: fc7b235640b32fe20800000000000000
+      internalID: 3382831160172394447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_5
+      name: BackgroundL2_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
+        x: 95
+        y: 96
+        width: 56
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 63c217e58623a9f4ba56e70f918c06ee
-      internalID: -1449031064
+      spriteID: a35b57f17ec224080800000000000000
+      internalID: -9204745317214997190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_6
+      name: BackgroundL2_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
+        x: 216
+        y: 93
+        width: 40
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: af316640d7875a04c97dd6258e888aa3
-      internalID: 1148525179
+      spriteID: 014543ec0a6f9ba00800000000000000
+      internalID: 772919981585486864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_7
+      name: BackgroundL2_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 10
+        y: 87
+        width: 39
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: db01c69f404edc74a92e5d4f2ecf4585
-      internalID: 764769381
+      spriteID: 4456c20407ecf4c80800000000000000
+      internalID: -8336217403731188412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_8
+      name: BackgroundL2_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 157
+        y: 87
+        width: 37
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f920a746c17b82546b95e283b693a3f1
-      internalID: -1912997094
+      spriteID: 8a9a00e168ef89900800000000000000
+      internalID: 691582394783803816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Groundterrain-Sheet_9
+      name: BackgroundL2_9
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 200
+        y: 77
+        width: 28
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4cadd06a5890e044db26e15ba3195598
-      internalID: -730634566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Groundterrain-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc8cfc676d36f584eb26f5856d59836a
-      internalID: -2144874662
+      spriteID: a43c8ee89198a8dc0800000000000000
+      internalID: -3635943006283447478
       vertices: []
       indices: 
       edges: []
@@ -358,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8acd8d55f0120004dbbede0b065e41bc
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -366,21 +371,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Groundterrain-Sheet_0: 3268973727523099093
-      Groundterrain-Sheet_1: 1678183544
-      Groundterrain-Sheet_10: -2144874662
-      Groundterrain-Sheet_2: -1325083122
-      Groundterrain-Sheet_3: -667626608
-      Groundterrain-Sheet_4: -2089651898
-      Groundterrain-Sheet_5: -1449031064
-      Groundterrain-Sheet_6: 1148525179
-      Groundterrain-Sheet_7: 764769381
-      Groundterrain-Sheet_8: -1912997094
-      Groundterrain-Sheet_9: -730634566
+      BackgroundL2_0: -6203227213422794267
+      BackgroundL2_1: 4788059943327544600
+      BackgroundL2_2: 6381176539521222811
+      BackgroundL2_3: 4425790938341920010
+      BackgroundL2_4: 3382831160172394447
+      BackgroundL2_5: -9204745317214997190
+      BackgroundL2_6: 772919981585486864
+      BackgroundL2_7: -8336217403731188412
+      BackgroundL2_8: 691582394783803816
+      BackgroundL2_9: -3635943006283447478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
