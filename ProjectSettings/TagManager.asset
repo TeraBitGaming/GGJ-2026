@@ -42,5 +42,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Hidden Layer
+    uniqueID: 2182165979
+    locked: 0
+  - name: Hidden Layer 2
+    uniqueID: 2238466943
+    locked: 0
   m_RenderingLayers:
   - Default
