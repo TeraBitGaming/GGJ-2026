@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: f05fcc79c4f42944e89b35241020df5b
-=======
-guid: d5d62cafc20ab5a478e38c9d874cd39b
->>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -98,11 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
-    buildTarget: WebGL
-=======
     buildTarget: WindowsStoreApps
->>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -133,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84eb79629ad304947a9177308f98c550
-      internalID: -1288660774
+      spriteID: 9ab184ab82d88d842963b23215601fee
+      internalID: -1246337186
       vertices: []
       indices: 
       edges: []
@@ -155,8 +147,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ea39e14ff8db884e9d84c9ead71336c
-      internalID: 1673543037
+      spriteID: 6db0e09e6e4ea894e945e6b5825594a8
+      internalID: -380395098
       vertices: []
       indices: 
       edges: []
@@ -177,8 +169,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfa4a09bf8f62a149ad5a7fb36a43ea5
-      internalID: -999046810
+      spriteID: aa43ac3222ee43a4eb9e65fa3528e0ff
+      internalID: -742837131
       vertices: []
       indices: 
       edges: []
@@ -199,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 763c629f87dc74c4a967bdf82c78e1c0
-      internalID: 954831003
+      spriteID: 39c5e87ae8bf63148887e6b10da3a3cf
+      internalID: -54674919
       vertices: []
       indices: 
       edges: []
@@ -221,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 691ce9adfbb5b6746876736d84b52ff7
-      internalID: -197884825
+      spriteID: 4e974910dad1fa9458694731e80043e9
+      internalID: -1616181010
       vertices: []
       indices: 
       edges: []
@@ -243,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5beafdeeaa2491408fd4d43cc08bea5
-      internalID: -963960092
+      spriteID: fde8542a21c7a984d9300ce5610a2c70
+      internalID: -1751486586
       vertices: []
       indices: 
       edges: []
@@ -265,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85c6fc58d53894b449bd8b8b9b4b3f09
-      internalID: -1516156344
+      spriteID: 8e79a468a9e2a9c4b9143efa7e0d0f9a
+      internalID: -1065417574
       vertices: []
       indices: 
       edges: []
@@ -287,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7ee9c05059ce0e4e9d3e0f546970292
-      internalID: -924555474
+      spriteID: 12061ebd5fc6532499a761066a2852c5
+      internalID: 1469224907
       vertices: []
       indices: 
       edges: []
@@ -297,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 132f4a02b7499b04e80d851a2b545b0b
+    spriteID: bb426a37c2586094c965d4639f29b179
     internalID: 0
     vertices: []
     indices: 
@@ -309,14 +301,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      NPC-Maksy_0: -1288660774
-      NPC-Maksy_1: 1673543037
-      NPC-Maksy_2: -999046810
-      NPC-Maksy_3: 954831003
-      NPC-Maksy_4: -197884825
-      NPC-Maksy_5: -963960092
-      NPC-Maksy_6: -1516156344
-      NPC-Maksy_7: -924555474
+      NPC-Maksy_0: -1246337186
+      NPC-Maksy_1: -380395098
+      NPC-Maksy_2: -742837131
+      NPC-Maksy_3: -54674919
+      NPC-Maksy_4: -1616181010
+      NPC-Maksy_5: -1751486586
+      NPC-Maksy_6: -1065417574
+      NPC-Maksy_7: 1469224907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

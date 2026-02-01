@@ -186,7 +186,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1516156344, guid: f05fcc79c4f42944e89b35241020df5b, type: 3}
+  m_Sprite: {fileID: -1065417574, guid: f05fcc79c4f42944e89b35241020df5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.2
+  m_fontSize: 23.9
   m_fontSizeBase: 39.36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -584,10 +584,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
-    - target: {fileID: 6662339299998717219, guid: 167cd60e1ce178b46853fdabb3153218, type: 3}
-      propertyPath: startOnWake
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -660,7 +656,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -924555474, guid: f05fcc79c4f42944e89b35241020df5b, type: 3}
+  m_Sprite: {fileID: 1469224907, guid: f05fcc79c4f42944e89b35241020df5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -742,7 +738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.23200001, y: 0.42400002}
   m_AnchorMax: {x: 0.77500004, y: 0.52500004}
-  m_AnchoredPosition: {x: -0.06008911, y: 1.5}
+  m_AnchoredPosition: {x: -0.060073853, y: 1.5}
   m_SizeDelta: {x: -3.5421982, y: -0.9438}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1750043997
@@ -792,7 +788,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.25
+  m_fontSize: 31.4
   m_fontSizeBase: 39.36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -957,7 +953,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1154914264, guid: bd54cdd7ac3e4634d87658518870c46f, type: 3}
+  m_Sprite: {fileID: 837583982, guid: bd54cdd7ac3e4634d87658518870c46f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
