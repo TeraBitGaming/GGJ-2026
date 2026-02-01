@@ -95,8 +95,11 @@ public class PlayerController : MonoBehaviour
         if (secondPlayer)
         {
             animator.runtimeAnimatorController = maskRightOverride;
-            sr.color = new Color(0.9f, 0.8f, 1f, 1f);
+            sr.color = new Color(0.9f, 0.7f, 1f, 1f);
 
+        } else
+        {
+            sr.color = new Color(1f, 1f, .8f, 1f);
         }
 
         animator.SetFloat(FacingRightHash, 1f);
