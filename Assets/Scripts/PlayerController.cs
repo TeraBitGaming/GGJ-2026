@@ -17,6 +17,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float VELOCITY_CLAMP = 10f;
 
+    [Header("Drag")]
+
+    [SerializeField]
+
+    float DRAG_X = 10;
+
+    [SerializeField]
+
+    float GROUND_DRAG_X = 12f;
+
     [Header("Wall Check")]
     [SerializeField] private Vector2 wallCheckSize = new(0.1f, 0.9f);
     [SerializeField] private float wallCheckDistance = 0.6f;
@@ -32,9 +42,10 @@ public class PlayerController : MonoBehaviour
     [Header("PlayerSettings")]    
     [SerializeField]
     public bool secondPlayer = false;
-
+    
     [SerializeField]
     bool ignorePlayerCollision = false;
+
     //Input
     InputAction moveAction;
     InputAction jumpAction;
@@ -97,7 +108,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        sr.color = grounded ? (secondPlayer ? Color.red : Color.orange) : (secondPlayer ? Color.purple : Color.blue);
+        sr.color = grounded ? Color.red : Color.blue;
         if (toggleMaskAction.triggered)
         {
             sizeMaskActive = !sizeMaskActive;
@@ -196,7 +207,9 @@ public class PlayerController : MonoBehaviour
                 Mathf.Clamp(rb.linearVelocity.x, -VELOCITY_CLAMP, VELOCITY_CLAMP),
                 rb.linearVelocityY
         );
+        float dragX = IsGrounded() ? GROUND_DRAG_X : DRAG_X;
 
+        rb.AddForceX(-dragX* rb.linearVelocityX);
     }
 
     public bool IsGrounded()
@@ -205,9 +218,10 @@ public class PlayerController : MonoBehaviour
 
         float checkHeight = 0.08f;
 
+        float cornerRadius = 0.1f;
         Vector2 checkPos = new(
             bounds.center.x,
-            bounds.min.y - checkHeight * 0.5f
+            bounds.min.y - checkHeight * 0.5f - cornerRadius
         );
 
         Vector2 checkSize = new(
