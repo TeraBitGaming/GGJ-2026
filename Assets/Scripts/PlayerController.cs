@@ -50,6 +50,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     bool ignorePlayerCollision = false;
 
+    [SerializeField]
+    bool hasSizeMask = false;
+
+    [SerializeField]
+    bool hasManifestMask = false;
     //Input
     InputAction moveAction;
     InputAction jumpAction;
@@ -126,7 +131,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (toggleMaskAction.triggered)
+        if (toggleMaskAction.triggered && hasSizeMask)
         {
             sizeMaskActive = !sizeMaskActive;
             float scaleFactor = sizeMaskActive ? (secondPlayer ? 2 : .5f) : 1;
