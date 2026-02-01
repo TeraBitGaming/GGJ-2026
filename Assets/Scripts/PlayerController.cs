@@ -13,9 +13,14 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField]
-    private float FORCE_SCALE = 150f;
+    public float FORCE_SCALE = 150f;
     [SerializeField]
-    float VELOCITY_CLAMP = 10f;
+
+    public float VELOCITY_CLAMP = 10f;
+
+    [Header("Wall Check")]
+    [SerializeField] private Vector2 wallCheckSize = new(0.1f, 0.9f);
+    [SerializeField] private float wallCheckDistance = 0.6f;
     
     [Header("Jump")]
     private static float JUMP_NORMAL = 14;
@@ -25,16 +30,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float JUMP_VELOCITY = JUMP_NORMAL;
 
-    [Header("Drag")]
-    [SerializeField]
-    float DRAG_X = 10;
-    [SerializeField]
-    float GROUND_DRAG_X = 12f;
-
     [Header("PlayerSettings")]    
     [SerializeField]
     public bool secondPlayer = false;
 
+    [SerializeField]
+    bool ignorePlayerCollision = false;
     //Input
     InputAction moveAction;
     InputAction jumpAction;
@@ -51,6 +52,14 @@ public class PlayerController : MonoBehaviour
     BoxCollider2D feet;
     private bool grounded = true;
     private bool sizeMaskActive = false;
+    public float speed;
+    public float jump;
+    public bool jumpQueued;
+    public float maxFallSpeed;
+    public bool wasGrounded;
+    public Vector2 boxSize;
+    public float castDistance;
+    public LayerMask groundLayer;
 
     //Animator Parameters
     private static readonly int SpeedHash = Animator.StringToHash("Speed");
@@ -67,8 +76,6 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody2D>();
-        sr = gameObject.GetComponent<SpriteRenderer>();
         moveAction = InputSystem.actions.FindAction(secondPlayer ? "Move2" : "Move1");
         jumpAction = InputSystem.actions.FindAction(secondPlayer ? "Jump2" : "Jump1");
         toggleMaskAction = InputSystem.actions.FindAction("ToggleMask");
@@ -80,40 +87,73 @@ public class PlayerController : MonoBehaviour
                 hitbox = col;
             }
         }
+        if (ignorePlayerCollision)
+        {
+            Physics2D.IgnoreLayerCollision(6, 6);
+        }
     }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        grounded = true;
-    }
-    void OnTriggerStay2D(Collider2D other)
-    {
-        grounded = true;
-    }
-    void OnTriggerExit2D(Collider2D other)
-    {
-        grounded = false;
-    }
+
+
+
+
     void Update()
     {
-        sr.color = grounded ? Color.red : Color.blue;
+        sr.color = grounded ? (secondPlayer ? Color.red : Color.orange) : (secondPlayer ? Color.purple : Color.blue);
         if (toggleMaskAction.triggered)
         {
             sizeMaskActive = !sizeMaskActive;
             float scaleFactor = sizeMaskActive ? (secondPlayer ? 2 : .5f) : 1;
             gameObject.transform.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
             JUMP_VELOCITY = sizeMaskActive ? (secondPlayer ? JUMP_LARGE : JUMP_SMALL) : JUMP_NORMAL;
-            hitbox.edgeRadius = 0.1f * scaleFactor;
         }
-        if (CheckGround() && jumpAction.triggered)
+
+        if (jumpAction.triggered)
         {
-            rb.linearVelocityY = JUMP_VELOCITY;
+            jumpQueued = true;
         }
+
+        // -------------------
+        // Animations
+        // -------------------
+
+        //Run
+        animator.SetFloat(SpeedHash, Mathf.Abs(rb.linearVelocityX));
+
+        //Jump
+        animator.SetBool(GroundedHash, grounded);
+        animator.SetFloat(VerticalSpeedHash, rb.linearVelocityY);
 
     }
+    
+        
     void FixedUpdate()
     {
+        wasGrounded = grounded;
+        grounded = IsGrounded();
+
+        if (!wasGrounded && grounded)
+        {
+            bool hardLand = maxFallSpeed < -7f; // tweak value
+            animator.SetBool("HardLand", hardLand);
+
+            maxFallSpeed = 0f;
+        }
+
 
         float moveInputX = moveAction.ReadValue<float>();
+
+        if (jumpQueued && grounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, JUMP_VELOCITY);
+        }
+
+        jumpQueued = false;
+
+        if (!grounded)
+        {
+            maxFallSpeed = Mathf.Min(maxFallSpeed, rb.linearVelocityY);
+        }
+
 
         // -------------------
         // Flip sprite direction
@@ -126,38 +166,97 @@ public class PlayerController : MonoBehaviour
         {
             sr.flipX = true;
         }
-
-        // -------------------
-        // Animations
-        // -------------------
-        //Run
-        animator.SetFloat(SpeedHash, Mathf.Abs(rb.linearVelocityX));
-
-        //Jump
-        animator.SetBool(GroundedHash, grounded);
-        animator.SetFloat(VerticalSpeedHash, rb.linearVelocityY);
-
         // -------------------
         // Horizontal movement
         // -------------------
 
-        if ((moveInputX < 0 && rb.linearVelocityX > -VELOCITY_CLAMP) || (moveInputX > 0 && rb.linearVelocityX < VELOCITY_CLAMP))
+        bool pushingLeft = moveInputX < -0.01f;
+        bool pushingRight = moveInputX > 0.01f;
+
+        bool wallOnLeft = IsTouchingWall(-1);
+        bool wallOnRight = IsTouchingWall(1);
+
+        // Block force into walls while airborne
+        if (!grounded)
         {
-            rb.AddForceX(FORCE_SCALE * moveInputX);
+            if ((pushingLeft && wallOnLeft) || (pushingRight && wallOnRight))
+            {
+                moveInputX = 0f;
+            }
         }
 
-        // -------------------
-        // Drag
-        // -------------------
+        // Apply movement
+        if (Mathf.Abs(moveInputX) > 0.01f &&
+            Mathf.Abs(rb.linearVelocity.x) < VELOCITY_CLAMP)
+        {
+            rb.AddForce(new Vector2(FORCE_SCALE * moveInputX, 0f));
+        }
 
-        float dragX = CheckGround() ? GROUND_DRAG_X : DRAG_X;
-        rb.AddForceX(-dragX* rb.linearVelocityX);
+
+            rb.linearVelocity = new Vector2(
+                Mathf.Clamp(rb.linearVelocity.x, -VELOCITY_CLAMP, VELOCITY_CLAMP),
+                rb.linearVelocityY
+        );
+
     }
-    
-        public bool CheckGround()
+
+    public bool IsGrounded()
     {
-        // float _distanceToTheGround = GetComponent<Collider2D>().bounds.extents.y;
-        // return Physics2D.Raycast(transform.position, Vector2.down, _distanceToTheGround + 0.1f);
-        return grounded;
+        Bounds bounds = hitbox.bounds;
+
+        float checkHeight = 0.08f;
+
+        Vector2 checkPos = new(
+            bounds.center.x,
+            bounds.min.y - checkHeight * 0.5f
+        );
+
+        Vector2 checkSize = new(
+            bounds.size.x * 0.9f,
+            checkHeight
+        );
+
+        return Physics2D.OverlapBox(checkPos, checkSize, 0f, groundLayer);
     }
+
+
+
+    public bool IsTouchingWall(int direction)
+    {
+        Vector2 origin = (Vector2)transform.position;
+        Vector2 dir = direction > 0 ? Vector2.right : Vector2.left;
+
+        return Physics2D.BoxCast(
+            origin,
+            wallCheckSize,
+            0f,
+            dir,
+            wallCheckDistance,
+            groundLayer
+        );
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+
+        Bounds bounds = hitbox.bounds;
+
+        float checkHeight = 0.08f;
+
+        Vector2 checkPos = new Vector2(
+            bounds.center.x,
+            bounds.min.y - checkHeight * 0.5f
+        );
+
+        Vector2 checkSize = new Vector2(
+            bounds.size.x * 0.9f,
+            checkHeight
+        );
+
+        Gizmos.DrawWireCube(checkPos, checkSize);
+
+    }
+
+
 }
