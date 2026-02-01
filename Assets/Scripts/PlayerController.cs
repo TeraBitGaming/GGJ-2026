@@ -13,9 +13,20 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField]
-    private float FORCE_SCALE = 150f;
+    public float FORCE_SCALE = 150f;
     [SerializeField]
-    float VELOCITY_CLAMP = 10f;
+
+    public float VELOCITY_CLAMP = 10f;
+
+    [Header("Drag")]
+
+    [SerializeField]
+
+    float DRAG_X = 10;
+
+    [SerializeField]
+
+    float GROUND_DRAG_X = 12f;
 
     [Header("Wall Check")]
     [SerializeField] private Vector2 wallCheckSize = new(0.1f, 0.9f);
@@ -32,6 +43,9 @@ public class PlayerController : MonoBehaviour
     [Header("PlayerSettings")]    
     [SerializeField]
     public bool secondPlayer = false;
+    
+    [SerializeField]
+    bool ignorePlayerCollision = false;
 
     //Input
     InputAction moveAction;
@@ -85,6 +99,10 @@ public class PlayerController : MonoBehaviour
             {
                 hitbox = col;
             }
+        }
+        if (ignorePlayerCollision)
+        {
+            Physics2D.IgnoreLayerCollision(6, 6);
         }
     }
 
@@ -188,7 +206,9 @@ public class PlayerController : MonoBehaviour
                 Mathf.Clamp(rb.linearVelocity.x, -VELOCITY_CLAMP, VELOCITY_CLAMP),
                 rb.linearVelocityY
         );
+        float dragX = IsGrounded() ? GROUND_DRAG_X : DRAG_X;
 
+        rb.AddForceX(-dragX* rb.linearVelocityX);
     }
 
     public bool IsGrounded()
@@ -197,9 +217,10 @@ public class PlayerController : MonoBehaviour
 
         float checkHeight = 0.08f;
 
+        float cornerRadius = 0.1f;
         Vector2 checkPos = new(
             bounds.center.x,
-            bounds.min.y - checkHeight * 0.5f
+            bounds.min.y - checkHeight * 0.5f - cornerRadius
         );
 
         Vector2 checkSize = new(
