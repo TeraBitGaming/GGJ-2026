@@ -17,6 +17,6 @@ public class ActivationTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        objectIsActive = (sources.All((s) => s.GetComponent<ActivationSource>().IsActive()));
+        objectIsActive = (sources.Any((s) => s.GetComponent<ActivationSource>().IsActive()));
     }
 }

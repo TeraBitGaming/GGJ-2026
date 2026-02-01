@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Level 3 Manifest Mask.unity
-    guid: 8510377f23aa05af7b6fa0b194c13045
+    path: Assets/Scenes/Level 0.unity
+    guid: 60beb9797d267fc49992d653084176a5
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 41a74737209590042af47297510fccaa
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Manifest Mask.unity
+    guid: 8510377f23aa05af7b6fa0b194c13045
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
