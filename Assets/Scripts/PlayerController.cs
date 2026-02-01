@@ -1,10 +1,5 @@
-using System;
-using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Rendering;
-using UnityEngine.Rendering.RenderGraphModule;
-using static UnityEngine.InputManagerEntry;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
