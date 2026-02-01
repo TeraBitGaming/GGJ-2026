@@ -1542,6 +1542,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1277716453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1158400124176193317, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_Name
+      value: Maksy(4)_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436197005682683619, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d8cfaf92fd761d342a606c41ed65d9d7, type: 2}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334579032539072950, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734193526438590217, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1353563070, guid: 6e31c504adff35947910f223901054e3, type: 3}
+    - target: {fileID: 5734193526438590217, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062803836039395476, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: secondPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062803836039395476, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: maskRightOverride
+      value: 
+      objectReference: {fileID: 22100000, guid: e1502fab2b2d0754e8aea81720013e52, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
 --- !u!1 &1394255242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,6 +1733,14 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8062803836039395476, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: secondPlayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062803836039395476, guid: 21b1d3c61f85b4543a283d51796d2885, type: 3}
+      propertyPath: maskRightOverride
+      value: 
+      objectReference: {fileID: 22100000, guid: e1502fab2b2d0754e8aea81720013e52, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1667,5 +1752,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 39818334}
   - {fileID: 5512530879613386810}
+  - {fileID: 1277716453}
   - {fileID: 562940125}
   - {fileID: 1394255244}
