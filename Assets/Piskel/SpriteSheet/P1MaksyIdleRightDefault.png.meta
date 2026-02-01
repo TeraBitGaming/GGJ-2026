@@ -1,37 +1,46 @@
 fileFormatVersion: 2
-guid: 68bed134baad61d469b8fb3675162513
+guid: 6e31c504adff35947910f223901054e3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6203227213422794267
-    second: BackgroundL2_0
+      213: -2503627028478183254
+    second: P1MaksyIdleRightDefault_0
   - first:
-      213: 4788059943327544600
-    second: BackgroundL2_1
+      213: 683674385692145976
+    second: P1MaksyIdleRightDefault_1
   - first:
-      213: 6381176539521222811
-    second: BackgroundL2_2
+      213: -8110434257331866157
+    second: P1MaksyIdleRightDefault_2
   - first:
-      213: 4425790938341920010
-    second: BackgroundL2_3
+      213: 5331370187516463821
+    second: P1MaksyIdleRightDefault_3
   - first:
-      213: 3382831160172394447
-    second: BackgroundL2_4
+      213: 5364228007384990151
+    second: P1MaksyIdleRightDefault_4
   - first:
-      213: -9204745317214997190
-    second: BackgroundL2_5
+      213: -8847437489987040665
+    second: P1MaksyIdleRightDefault_5
   - first:
-      213: 772919981585486864
-    second: BackgroundL2_6
+      213: 3532195054115349354
+    second: P1MaksyIdleRightDefault_6
   - first:
-      213: -8336217403731188412
-    second: BackgroundL2_7
+      213: -8492023786853446330
+    second: P1MaksyIdleRightDefault_7
   - first:
-      213: 691582394783803816
-    second: BackgroundL2_8
+      213: -304215050765754049
+    second: P1MaksyIdleRightDefault_8
   - first:
-      213: -3635943006283447478
-    second: BackgroundL2_9
+      213: -866082646324663989
+    second: P1MaksyIdleRightDefault_9
+  - first:
+      213: -8673464145794972541
+    second: P1MaksyIdleRightDefault_10
+  - first:
+      213: 2300449571338498389
+    second: P1MaksyIdleRightDefault_11
+  - first:
+      213: 8439491158522300096
+    second: P1MaksyIdleRightDefault_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,23 +73,23 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 144
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -102,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackgroundL2_0
+      name: P1MaksyIdleRightDefault_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 122
-        width: 31
-        height: 13
+        x: 8
+        y: 66
+        width: 16
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e9e5ea27b5b9e9a0800000000000000
-      internalID: -6203227213422794267
+      spriteID: aa8bd7d7b74514dd0800000000000000
+      internalID: -2503627028478183254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_1
+      name: P1MaksyIdleRightDefault_1
       rect:
         serializedVersion: 2
-        x: 75
-        y: 124
-        width: 45
-        height: 15
+        x: 40
+        y: 67
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 815b055762b927240800000000000000
-      internalID: 4788059943327544600
+      spriteID: 839b6354b36ec7900800000000000000
+      internalID: 683674385692145976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_2
+      name: P1MaksyIdleRightDefault_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 114
-        width: 23
-        height: 11
+        x: 46
+        y: 88
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b980837f04e7e8850800000000000000
-      internalID: 6381176539521222811
+      spriteID: 3d5339d8303f17f80800000000000000
+      internalID: -8110434257331866157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_3
+      name: P1MaksyIdleRightDefault_3
       rect:
         serializedVersion: 2
-        x: 162
-        y: 115
-        width: 58
-        height: 17
+        x: 72
+        y: 67
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0d430ad8619b6d30800000000000000
-      internalID: 4425790938341920010
+      spriteID: dcac60150f4dcf940800000000000000
+      internalID: 5331370187516463821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_4
+      name: P1MaksyIdleRightDefault_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 104
-        width: 57
-        height: 17
+        x: 78
+        y: 90
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc7b235640b32fe20800000000000000
-      internalID: 3382831160172394447
+      spriteID: 7c1426aa3f0917a40800000000000000
+      internalID: 5364228007384990151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_5
+      name: P1MaksyIdleRightDefault_5
       rect:
         serializedVersion: 2
-        x: 95
-        y: 96
-        width: 56
-        height: 14
+        x: 8
+        y: 33
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a35b57f17ec224080800000000000000
-      internalID: -9204745317214997190
+      spriteID: 76a49d48a76973580800000000000000
+      internalID: -8847437489987040665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_6
+      name: P1MaksyIdleRightDefault_6
       rect:
         serializedVersion: 2
-        x: 216
-        y: 93
-        width: 40
-        height: 11
+        x: 14
+        y: 58
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 014543ec0a6f9ba00800000000000000
-      internalID: 772919981585486864
+      spriteID: a63efe5ffa0e40130800000000000000
+      internalID: 3532195054115349354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_7
+      name: P1MaksyIdleRightDefault_7
       rect:
         serializedVersion: 2
-        x: 10
-        y: 87
-        width: 39
-        height: 12
+        x: 40
+        y: 32
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4456c20407ecf4c80800000000000000
-      internalID: -8336217403731188412
+      spriteID: 64dce68cb55462a80800000000000000
+      internalID: -8492023786853446330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_8
+      name: P1MaksyIdleRightDefault_8
       rect:
         serializedVersion: 2
-        x: 157
-        y: 87
-        width: 37
-        height: 13
+        x: 46
+        y: 56
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a9a00e168ef89900800000000000000
-      internalID: 691582394783803816
+      spriteID: f31a7cbe50637cbf0800000000000000
+      internalID: -304215050765754049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundL2_9
+      name: P1MaksyIdleRightDefault_9
       rect:
         serializedVersion: 2
-        x: 200
-        y: 77
-        width: 28
-        height: 13
+        x: 72
+        y: 31
+        width: 16
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +362,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a43c8ee89198a8dc0800000000000000
-      internalID: -3635943006283447478
+      spriteID: b4920bffb6e0bf3f0800000000000000
+      internalID: -866082646324663989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P1MaksyIdleRightDefault_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 53
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384cdc9305aa1a780800000000000000
+      internalID: -8673464145794972541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P1MaksyIdleRightDefault_11
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551b45362b6dcef10800000000000000
+      internalID: 2300449571338498389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P1MaksyIdleRightDefault_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c685cc8e781f1570800000000000000
+      internalID: 8439491158522300096
       vertices: []
       indices: 
       edges: []
@@ -363,7 +438,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +448,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BackgroundL2_0: -6203227213422794267
-      BackgroundL2_1: 4788059943327544600
-      BackgroundL2_2: 6381176539521222811
-      BackgroundL2_3: 4425790938341920010
-      BackgroundL2_4: 3382831160172394447
-      BackgroundL2_5: -9204745317214997190
-      BackgroundL2_6: 772919981585486864
-      BackgroundL2_7: -8336217403731188412
-      BackgroundL2_8: 691582394783803816
-      BackgroundL2_9: -3635943006283447478
+      P1MaksyIdleRightDefault_0: -2503627028478183254
+      P1MaksyIdleRightDefault_1: 683674385692145976
+      P1MaksyIdleRightDefault_10: -8673464145794972541
+      P1MaksyIdleRightDefault_11: 2300449571338498389
+      P1MaksyIdleRightDefault_12: 8439491158522300096
+      P1MaksyIdleRightDefault_2: -8110434257331866157
+      P1MaksyIdleRightDefault_3: 5331370187516463821
+      P1MaksyIdleRightDefault_4: 5364228007384990151
+      P1MaksyIdleRightDefault_5: -8847437489987040665
+      P1MaksyIdleRightDefault_6: 3532195054115349354
+      P1MaksyIdleRightDefault_7: -8492023786853446330
+      P1MaksyIdleRightDefault_8: -304215050765754049
+      P1MaksyIdleRightDefault_9: -866082646324663989
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

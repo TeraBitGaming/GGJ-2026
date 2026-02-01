@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b3ff33df0fe82a54cbd813ea16b24886
+guid: 22b819fc5388ffe43b86b68069e8fab4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1884618725832555953
-    second: BackgroundL3_0
+      213: 6336333749889010549
+    second: BackgroundL2-1_0
+  - first:
+      213: -2157214419346272624
+    second: BackgroundL2-1_1
+  - first:
+      213: -2011898866118323085
+    second: BackgroundL2-1_2
+  - first:
+      213: 8480053918440591706
+    second: BackgroundL2-1_3
+  - first:
+      213: -5684152286381107822
+    second: BackgroundL2-1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,12 +60,12 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 144
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackgroundL3_0
+      name: BackgroundL2-1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 256
-        height: 144
+        y: 122
+        width: 31
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bd7c4afeb2872a10800000000000000
-      internalID: 1884618725832555953
+      spriteID: 57b047469fd2fe750800000000000000
+      internalID: 6336333749889010549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundL2-1_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 124
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ec38e3ae80012e0800000000000000
+      internalID: -2157214419346272624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundL2-1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 114
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374910904ac4414e0800000000000000
+      internalID: -2011898866118323085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundL2-1_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 115
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a519fcc0c143fa570800000000000000
+      internalID: 8480053918440591706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackgroundL2-1_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 104
+        width: 57
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29597098c95dd11b0800000000000000
+      internalID: -5684152286381107822
       vertices: []
       indices: 
       edges: []
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BackgroundL3_0: 1884618725832555953
+      BackgroundL2-1_0: 6336333749889010549
+      BackgroundL2-1_1: -2157214419346272624
+      BackgroundL2-1_2: -2011898866118323085
+      BackgroundL2-1_3: 8480053918440591706
+      BackgroundL2-1_4: -5684152286381107822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
