@@ -66,6 +66,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jump;
     public bool jumpQueued;
+    public float moveInputX;
     public float maxFallSpeed;
     public bool wasGrounded;
     public Vector2 boxSize;
@@ -76,6 +77,7 @@ public class PlayerController : MonoBehaviour
     private static readonly int SpeedHash = Animator.StringToHash("Speed");
     private static readonly int VerticalSpeedHash = Animator.StringToHash("VerticalSpeed");
     private static readonly int GroundedHash = Animator.StringToHash("Grounded");
+    private static readonly int FacingRightHash = Animator.StringToHash("FacingRight");
 
     void Awake()
     {        
@@ -128,12 +130,23 @@ public class PlayerController : MonoBehaviour
         // -------------------
 
         //Run
-        animator.SetFloat(SpeedHash, Mathf.Abs(rb.linearVelocityX));
+        float normalizedSpeed = Mathf.Abs(rb.linearVelocityX) / VELOCITY_CLAMP;
+        animator.SetFloat(SpeedHash, normalizedSpeed);
+
 
         //Jump
         animator.SetBool(GroundedHash, grounded);
-        animator.SetFloat(VerticalSpeedHash, rb.linearVelocityY);
+        float normalizedVertical = Mathf.Clamp(rb.linearVelocityY / JUMP_VELOCITY, -1f, 1f);
+        animator.SetFloat(VerticalSpeedHash, normalizedVertical);
 
+
+        moveInputX = moveAction.ReadValue<float>();
+
+        if (Mathf.Abs(moveInputX) > 0.01f)
+        {
+            float facing = moveInputX > 0 ? 1f : -1f;
+            animator.SetFloat(FacingRightHash, facing);
+        }
     }
     
         
@@ -144,14 +157,12 @@ public class PlayerController : MonoBehaviour
 
         if (!wasGrounded && grounded)
         {
-            bool hardLand = maxFallSpeed < -7f; // tweak value
-            animator.SetBool("HardLand", hardLand);
+            bool hardLand = maxFallSpeed < -.95f; // tweak value
+            animator.SetFloat("HardLand", hardLand ? 1f : 0f);
 
             maxFallSpeed = 0f;
         }
 
-
-        float moveInputX = moveAction.ReadValue<float>();
 
         if (jumpQueued && grounded)
         {
@@ -163,19 +174,6 @@ public class PlayerController : MonoBehaviour
         if (!grounded)
         {
             maxFallSpeed = Mathf.Min(maxFallSpeed, rb.linearVelocityY);
-        }
-
-
-        // -------------------
-        // Flip sprite direction
-        // -------------------
-
-        if (moveInputX > 0.01f)
-        {
-           sr.flipX = false; 
-        } else if (moveInputX < -0.01f)
-        {
-            sr.flipX = true;
         }
         // -------------------
         // Horizontal movement
