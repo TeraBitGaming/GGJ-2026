@@ -1,31 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: f05fcc79c4f42944e89b35241020df5b
+=======
 guid: d5d62cafc20ab5a478e38c9d874cd39b
+>>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7830193106133873450
-    second: NPC-Maksy_0
-  - first:
-      213: 6573020867322129608
-    second: NPC-Maksy_1
-  - first:
-      213: -1983639689075031713
-    second: NPC-Maksy_2
-  - first:
-      213: 8765477482329139490
-    second: NPC-Maksy_3
-  - first:
-      213: -2414265686334149405
-    second: NPC-Maksy_4
-  - first:
-      213: 1393994651814752204
-    second: NPC-Maksy_5
-  - first:
-      213: -8517826378463507136
-    second: NPC-Maksy_6
-  - first:
-      213: 2644644397035838609
-    second: NPC-Maksy_7
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,12 +38,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -72,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,16 +67,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,7 +89,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,11 +98,15 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+<<<<<<< HEAD
+    buildTarget: WebGL
+=======
     buildTarget: WindowsStoreApps
+>>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,20 +121,20 @@ TextureImporter:
       name: NPC-Maksy_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 65
-        width: 16
-        height: 28
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6dc8d2a2bd0955390800000000000000
-      internalID: -7830193106133873450
+      spriteID: 84eb79629ad304947a9177308f98c550
+      internalID: -1288660774
       vertices: []
       indices: 
       edges: []
@@ -159,20 +143,20 @@ TextureImporter:
       name: NPC-Maksy_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 65
-        width: 16
-        height: 28
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8cc27f947af083b50800000000000000
-      internalID: 6573020867322129608
+      spriteID: 6ea39e14ff8db884e9d84c9ead71336c
+      internalID: 1673543037
       vertices: []
       indices: 
       edges: []
@@ -181,20 +165,20 @@ TextureImporter:
       name: NPC-Maksy_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 65
-        width: 16
-        height: 28
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f51015a6632b874e0800000000000000
-      internalID: -1983639689075031713
+      spriteID: bfa4a09bf8f62a149ad5a7fb36a43ea5
+      internalID: -999046810
       vertices: []
       indices: 
       edges: []
@@ -203,20 +187,20 @@ TextureImporter:
       name: NPC-Maksy_3
       rect:
         serializedVersion: 2
-        x: 8
-        y: 33
-        width: 16
-        height: 28
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 229e9e4245b35a970800000000000000
-      internalID: 8765477482329139490
+      spriteID: 763c629f87dc74c4a967bdf82c78e1c0
+      internalID: 954831003
       vertices: []
       indices: 
       edges: []
@@ -225,20 +209,20 @@ TextureImporter:
       name: NPC-Maksy_4
       rect:
         serializedVersion: 2
-        x: 44
-        y: 39
-        width: 9
-        height: 12
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ec63ac462ece7ed0800000000000000
-      internalID: -2414265686334149405
+      spriteID: 691ce9adfbb5b6746876736d84b52ff7
+      internalID: -197884825
       vertices: []
       indices: 
       edges: []
@@ -247,20 +231,20 @@ TextureImporter:
       name: NPC-Maksy_5
       rect:
         serializedVersion: 2
-        x: 75
-        y: 39
-        width: 9
-        height: 12
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ccf663800c6785310800000000000000
-      internalID: 1393994651814752204
+      spriteID: e5beafdeeaa2491408fd4d43cc08bea5
+      internalID: -963960092
       vertices: []
       indices: 
       edges: []
@@ -269,20 +253,20 @@ TextureImporter:
       name: NPC-Maksy_6
       rect:
         serializedVersion: 2
-        x: 49
-        y: 6
-        width: 7
-        height: 11
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 04d0b35c90a9ac980800000000000000
-      internalID: -8517826378463507136
+      spriteID: 85c6fc58d53894b449bd8b8b9b4b3f09
+      internalID: -1516156344
       vertices: []
       indices: 
       edges: []
@@ -291,20 +275,20 @@ TextureImporter:
       name: NPC-Maksy_7
       rect:
         serializedVersion: 2
-        x: 75
-        y: 6
-        width: 10
-        height: 11
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 19c5c82311aa3b420800000000000000
-      internalID: 2644644397035838609
+      spriteID: c7ee9c05059ce0e4e9d3e0f546970292
+      internalID: -924555474
       vertices: []
       indices: 
       edges: []
@@ -313,7 +297,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 132f4a02b7499b04e80d851a2b545b0b
     internalID: 0
     vertices: []
     indices: 
@@ -321,16 +305,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      NPC-Maksy_0: -7830193106133873450
-      NPC-Maksy_1: 6573020867322129608
-      NPC-Maksy_2: -1983639689075031713
-      NPC-Maksy_3: 8765477482329139490
-      NPC-Maksy_4: -2414265686334149405
-      NPC-Maksy_5: 1393994651814752204
-      NPC-Maksy_6: -8517826378463507136
-      NPC-Maksy_7: 2644644397035838609
+      NPC-Maksy_0: -1288660774
+      NPC-Maksy_1: 1673543037
+      NPC-Maksy_2: -999046810
+      NPC-Maksy_3: 954831003
+      NPC-Maksy_4: -197884825
+      NPC-Maksy_5: -963960092
+      NPC-Maksy_6: -1516156344
+      NPC-Maksy_7: -924555474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

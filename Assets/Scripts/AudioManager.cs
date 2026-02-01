@@ -6,7 +6,10 @@ using UnityEngine.Rendering;
 
 public class AudioManager : MonoBehaviour
 {
+    
     private static AudioManager _instance;
+
+    public static AudioManager Instance { get { return _instance; } }
 
     private AudioSource source;
 
@@ -20,6 +23,8 @@ public class AudioManager : MonoBehaviour
     private List<AudioClip> lib_Values = new List<AudioClip>();
 
     public bool stopMusic = false;
+
+    public bool startOnWake = false;
 
     void Awake()
     {
@@ -42,7 +47,10 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         source = gameObject.GetComponent<AudioSource>();
-        playSound("Music");
+        if(startOnWake)
+        {
+            playSound("Intro");
+        }
     }
 
     public void playSound(string soundKey)
