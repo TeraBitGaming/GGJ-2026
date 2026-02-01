@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour
 
     public float VELOCITY_CLAMP = 10f;
 
+    [Header("Visuals")]
+    [SerializeField] private AnimatorOverrideController maskRightOverride;
+
     [Header("Drag")]
 
     [SerializeField]
@@ -89,6 +92,15 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (secondPlayer)
+        {
+            animator.runtimeAnimatorController = maskRightOverride;
+            sr.color = new Color(0.9f, 0.8f, 1f, 1f);
+
+        }
+
+        animator.SetFloat(FacingRightHash, 1f);
+
         moveAction = InputSystem.actions.FindAction(secondPlayer ? "Move2" : "Move1");
         jumpAction = InputSystem.actions.FindAction(secondPlayer ? "Jump2" : "Jump1");
         toggleMaskAction = InputSystem.actions.FindAction("ToggleMask");
@@ -111,7 +123,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        sr.color = grounded ? Color.red : Color.blue;
         if (toggleMaskAction.triggered)
         {
             sizeMaskActive = !sizeMaskActive;
@@ -157,7 +168,7 @@ public class PlayerController : MonoBehaviour
 
         if (!wasGrounded && grounded)
         {
-            bool hardLand = maxFallSpeed < -.95f; // tweak value
+            bool hardLand = maxFallSpeed < -9f; // tweak value
             animator.SetFloat("HardLand", hardLand ? 1f : 0f);
 
             maxFallSpeed = 0f;

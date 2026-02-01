@@ -1,35 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 18e5c50a71c19994b80db23de55cc829
-=======
-guid: 5b434a3140438bd4389d43ec61b1208f
->>>>>>> d2b0d2449d53ef6d78ade5f52085c03481f6a5fd
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 4387836371859078837
-    second: P2MaksyRunActualFinalRightDefault_0
-  - first:
-      213: 2310434523139346001
-    second: P2MaksyRunActualFinalRightDefault_1
-  - first:
-      213: -8723203398420182840
-    second: P2MaksyRunActualFinalRightDefault_2
-  - first:
-      213: -735252246928935745
-    second: P2MaksyRunActualFinalRightDefault_3
-  - first:
-      213: 9201868796404324777
-    second: P2MaksyRunActualFinalRightDefault_4
-  - first:
-      213: 1857797318267654859
-    second: P2MaksyRunActualFinalRightDefault_5
-  - first:
-      213: 2098645403989737019
-    second: P2MaksyRunActualFinalRightDefault_6
-  - first:
-      213: -1410077836129275970
-    second: P2MaksyRunActualFinalRightDefault_7
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -62,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -76,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -91,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,22 +93,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> d2b0d2449d53ef6d78ade5f52085c03481f6a5fd
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -144,20 +100,20 @@ TextureImporter:
       name: P2MaksyRunActualFinalRightDefault_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 66
-        width: 16
-        height: 29
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5bef235bee9b4ec30800000000000000
-      internalID: 4387836371859078837
+      spriteID: fd74ecb9a8a35144e86924723387e3f1
+      internalID: 112168380
       vertices: []
       indices: 
       edges: []
@@ -166,20 +122,20 @@ TextureImporter:
       name: P2MaksyRunActualFinalRightDefault_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 65
-        width: 18
-        height: 27
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 15e058425ff401020800000000000000
-      internalID: 2310434523139346001
+      spriteID: 77237f7a546285e4fb9e6114e4bc085c
+      internalID: 1481925371
       vertices: []
       indices: 
       edges: []
@@ -188,20 +144,20 @@ TextureImporter:
       name: P2MaksyRunActualFinalRightDefault_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 65
-        width: 21
-        height: 24
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8c84fa50ab4f0f680800000000000000
-      internalID: -8723203398420182840
+      spriteID: 0eddb4e11efefa04584419edf6d13560
+      internalID: 1762174087
       vertices: []
       indices: 
       edges: []
@@ -210,20 +166,20 @@ TextureImporter:
       name: P2MaksyRunActualFinalRightDefault_3
       rect:
         serializedVersion: 2
-        x: 3
-        y: 35
-        width: 21
-        height: 21
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fb43e791afbdbc5f0800000000000000
-      internalID: -735252246928935745
+      spriteID: 37a5c51ca67765f48b58cc4b74a38abd
+      internalID: 161569130
       vertices: []
       indices: 
       edges: []
@@ -232,20 +188,20 @@ TextureImporter:
       name: P2MaksyRunActualFinalRightDefault_4
       rect:
         serializedVersion: 2
-        x: 34
-        y: 37
-        width: 22
-        height: 20
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9a95e6faaea93bf70800000000000000
-      internalID: 9201868796404324777
+      spriteID: f7d181b4586644c4696495187647cfdf
+      internalID: 99249199
       vertices: []
       indices: 
       edges: []
@@ -254,20 +210,20 @@ TextureImporter:
       name: P2MaksyRunActualFinalRightDefault_5
       rect:
         serializedVersion: 2
-        x: 68
-        y: 36
-        width: 20
-        height: 24
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc2540461d838c910800000000000000
-      internalID: 1857797318267654859
+      spriteID: 2f21680cecf1c314a87724e3c456b01f
+      internalID: -1434516374
       vertices: []
       indices: 
       edges: []
@@ -276,20 +232,20 @@ TextureImporter:
       name: P2MaksyRunActualFinalRightDefault_6
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1
-        width: 18
-        height: 27
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b3e705630e2ef1d10800000000000000
-      internalID: 2098645403989737019
+      spriteID: e90d6a6814f45fa41a0942c47a9ab0cb
+      internalID: 950823381
       vertices: []
       indices: 
       edges: []
@@ -298,20 +254,20 @@ TextureImporter:
       name: P2MaksyRunActualFinalRightDefault_7
       rect:
         serializedVersion: 2
-        x: 40
-        y: 2
-        width: 17
-        height: 28
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ebfecdfcda56e6ce0800000000000000
-      internalID: -1410077836129275970
+      spriteID: 6a6b6ed2155f3ba46b945fe31247e62c
+      internalID: 807312864
       vertices: []
       indices: 
       edges: []
@@ -320,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8d84fc9de76b40a4e8472b06fabf3a77
     internalID: 0
     vertices: []
     indices: 
@@ -328,16 +284,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      P2MaksyRunActualFinalRightDefault_0: 4387836371859078837
-      P2MaksyRunActualFinalRightDefault_1: 2310434523139346001
-      P2MaksyRunActualFinalRightDefault_2: -8723203398420182840
-      P2MaksyRunActualFinalRightDefault_3: -735252246928935745
-      P2MaksyRunActualFinalRightDefault_4: 9201868796404324777
-      P2MaksyRunActualFinalRightDefault_5: 1857797318267654859
-      P2MaksyRunActualFinalRightDefault_6: 2098645403989737019
-      P2MaksyRunActualFinalRightDefault_7: -1410077836129275970
+      P2MaksyRunActualFinalRightDefault_0: 112168380
+      P2MaksyRunActualFinalRightDefault_1: 1481925371
+      P2MaksyRunActualFinalRightDefault_2: 1762174087
+      P2MaksyRunActualFinalRightDefault_3: 161569130
+      P2MaksyRunActualFinalRightDefault_4: 99249199
+      P2MaksyRunActualFinalRightDefault_5: -1434516374
+      P2MaksyRunActualFinalRightDefault_6: 950823381
+      P2MaksyRunActualFinalRightDefault_7: 807312864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,56 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: b87dce1be5aebf04a8115f0e2a3662e6
-=======
-guid: 1d513e1d102ebb441b32f90350b43469
->>>>>>> d2b0d2449d53ef6d78ade5f52085c03481f6a5fd
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -4965890802304866542
-    second: P2MaksyJumpApexFallLandLeftDefault_0
-  - first:
-      213: 8329288921716893130
-    second: P2MaksyJumpApexFallLandLeftDefault_1
-  - first:
-      213: -4279106070208383205
-    second: P2MaksyJumpApexFallLandLeftDefault_2
-  - first:
-      213: -7987427725172851190
-    second: P2MaksyJumpApexFallLandLeftDefault_3
-  - first:
-      213: 7993834325328816914
-    second: P2MaksyJumpApexFallLandLeftDefault_4
-  - first:
-      213: -8897424419868259021
-    second: P2MaksyJumpApexFallLandLeftDefault_5
-  - first:
-      213: -7685561994028204850
-    second: P2MaksyJumpApexFallLandLeftDefault_6
-  - first:
-      213: -833318939748460172
-    second: P2MaksyJumpApexFallLandLeftDefault_7
-  - first:
-      213: -6833678157878483350
-    second: P2MaksyJumpApexFallLandLeftDefault_8
-  - first:
-      213: 2094119370614012483
-    second: P2MaksyJumpApexFallLandLeftDefault_9
-  - first:
-      213: 2428722775447551238
-    second: P2MaksyJumpApexFallLandLeftDefault_10
-  - first:
-      213: 6831018502761527752
-    second: P2MaksyJumpApexFallLandLeftDefault_11
-  - first:
-      213: -3735368878686788204
-    second: P2MaksyJumpApexFallLandLeftDefault_12
-  - first:
-      213: 8557864931306990479
-    second: P2MaksyJumpApexFallLandLeftDefault_13
-  - first:
-      213: 2041885458574889146
-    second: P2MaksyJumpApexFallLandLeftDefault_14
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -83,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -142,22 +93,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> d2b0d2449d53ef6d78ade5f52085c03481f6a5fd
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -165,20 +100,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 98
-        width: 16
-        height: 29
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2172d3f20ac951bb0800000000000000
-      internalID: -4965890802304866542
+      spriteID: 2539f83079d584440a0a8e78a4894063
+      internalID: -663774545
       vertices: []
       indices: 
       edges: []
@@ -187,20 +122,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 97
-        width: 17
-        height: 27
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ac52882d424979370800000000000000
-      internalID: 8329288921716893130
+      spriteID: 80a9dffb1f3a6394dbdb77ca5767d022
+      internalID: 1302677997
       vertices: []
       indices: 
       edges: []
@@ -209,20 +144,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 95
-        width: 16
-        height: 24
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b17f20963bf8d94c0800000000000000
-      internalID: -4279106070208383205
+      spriteID: bf445bd76d4f522458c12921b0d9cc06
+      internalID: 4122011
       vertices: []
       indices: 
       edges: []
@@ -231,20 +166,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_3
       rect:
         serializedVersion: 2
-        x: 105
+        x: 96
         y: 96
-        width: 15
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0e37fb9dc4f62190800000000000000
-      internalID: -7987427725172851190
+      spriteID: e52a78128fc06f041b882307b4e26020
+      internalID: 1223126880
       vertices: []
       indices: 
       edges: []
@@ -253,20 +188,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_4
       rect:
         serializedVersion: 2
-        x: 9
-        y: 63
-        width: 15
-        height: 25
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21b6c8a37fdcfee60800000000000000
-      internalID: 7993834325328816914
+      spriteID: 20d981e061d6a904f889a921785440da
+      internalID: -1129550352
       vertices: []
       indices: 
       edges: []
@@ -275,20 +210,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_5
       rect:
         serializedVersion: 2
-        x: 41
-        y: 65
-        width: 20
-        height: 25
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 33dcdd571aff58480800000000000000
-      internalID: -8897424419868259021
+      spriteID: 6d970b79cb817d845ba76b5fd768d47f
+      internalID: -1990500866
       vertices: []
       indices: 
       edges: []
@@ -297,20 +232,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_6
       rect:
         serializedVersion: 2
-        x: 73
-        y: 65
-        width: 20
-        height: 24
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eccb4b61616675590800000000000000
-      internalID: -7685561994028204850
+      spriteID: 5a1195129063d704eacd2e7a6a25fdd1
+      internalID: 1962048904
       vertices: []
       indices: 
       edges: []
@@ -319,20 +254,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_7
       rect:
         serializedVersion: 2
-        x: 105
-        y: 67
-        width: 19
-        height: 26
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47910b3e6d47f64f0800000000000000
-      internalID: -833318939748460172
+      spriteID: fc7a01c578971974890af997ab013946
+      internalID: -1592566394
       vertices: []
       indices: 
       edges: []
@@ -341,20 +276,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_8
       rect:
         serializedVersion: 2
-        x: 9
-        y: 35
-        width: 18
-        height: 27
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a66ae4afbe5e921a0800000000000000
-      internalID: -6833678157878483350
+      spriteID: 883969b621a50b748b9bbf8d3092576f
+      internalID: -1111007359
       vertices: []
       indices: 
       edges: []
@@ -363,20 +298,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_9
       rect:
         serializedVersion: 2
-        x: 41
-        y: 35
-        width: 18
-        height: 20
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 34a76b2f87ecf0d10800000000000000
-      internalID: 2094119370614012483
+      spriteID: 089500c7a5e8e1f4480e342c1d30c53e
+      internalID: -269386673
       vertices: []
       indices: 
       edges: []
@@ -385,20 +320,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_10
       rect:
         serializedVersion: 2
-        x: 52
-        y: 53
-        width: 7
-        height: 9
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 60db3701f7e84b120800000000000000
-      internalID: 2428722775447551238
+      spriteID: 8604248c9e7db5b4481fa9cadf92a582
+      internalID: -2038504344
       vertices: []
       indices: 
       edges: []
@@ -407,20 +342,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_11
       rect:
         serializedVersion: 2
-        x: 73
+        x: 96
         y: 32
-        width: 19
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8c9b83fc227acce50800000000000000
-      internalID: 6831018502761527752
+      spriteID: 1989a2b05e903cf4fa5856bf4ede335c
+      internalID: 105782127
       vertices: []
       indices: 
       edges: []
@@ -429,20 +364,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_12
       rect:
         serializedVersion: 2
-        x: 98
-        y: 32
-        width: 28
-        height: 10
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 49523d0bbcd492cc0800000000000000
-      internalID: -3735368878686788204
+      spriteID: f6f47d4eaeff9da4e82db651bcda9e8e
+      internalID: 1332756916
       vertices: []
       indices: 
       edges: []
@@ -451,42 +386,20 @@ TextureImporter:
       name: P2MaksyJumpApexFallLandLeftDefault_13
       rect:
         serializedVersion: 2
-        x: 9
+        x: 32
         y: 0
-        width: 19
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f8b635240d4a3c670800000000000000
-      internalID: 8557864931306990479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyJumpApexFallLandLeftDefault_14
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 2
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab05466910c365c10800000000000000
-      internalID: 2041885458574889146
+      spriteID: 8b777ddd3cc46364cbd796424366fb9e
+      internalID: 1499194163
       vertices: []
       indices: 
       edges: []
@@ -495,7 +408,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 661977a4d9774e04295a535a15ef527a
     internalID: 0
     vertices: []
     indices: 
@@ -503,23 +416,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      P2MaksyJumpApexFallLandLeftDefault_0: -4965890802304866542
-      P2MaksyJumpApexFallLandLeftDefault_1: 8329288921716893130
-      P2MaksyJumpApexFallLandLeftDefault_10: 2428722775447551238
-      P2MaksyJumpApexFallLandLeftDefault_11: 6831018502761527752
-      P2MaksyJumpApexFallLandLeftDefault_12: -3735368878686788204
-      P2MaksyJumpApexFallLandLeftDefault_13: 8557864931306990479
-      P2MaksyJumpApexFallLandLeftDefault_14: 2041885458574889146
-      P2MaksyJumpApexFallLandLeftDefault_2: -4279106070208383205
-      P2MaksyJumpApexFallLandLeftDefault_3: -7987427725172851190
-      P2MaksyJumpApexFallLandLeftDefault_4: 7993834325328816914
-      P2MaksyJumpApexFallLandLeftDefault_5: -8897424419868259021
-      P2MaksyJumpApexFallLandLeftDefault_6: -7685561994028204850
-      P2MaksyJumpApexFallLandLeftDefault_7: -833318939748460172
-      P2MaksyJumpApexFallLandLeftDefault_8: -6833678157878483350
-      P2MaksyJumpApexFallLandLeftDefault_9: 2094119370614012483
+      P2MaksyJumpApexFallLandLeftDefault_0: -663774545
+      P2MaksyJumpApexFallLandLeftDefault_1: 1302677997
+      P2MaksyJumpApexFallLandLeftDefault_10: -2038504344
+      P2MaksyJumpApexFallLandLeftDefault_11: 105782127
+      P2MaksyJumpApexFallLandLeftDefault_12: 1332756916
+      P2MaksyJumpApexFallLandLeftDefault_13: 1499194163
+      P2MaksyJumpApexFallLandLeftDefault_2: 4122011
+      P2MaksyJumpApexFallLandLeftDefault_3: 1223126880
+      P2MaksyJumpApexFallLandLeftDefault_4: -1129550352
+      P2MaksyJumpApexFallLandLeftDefault_5: -1990500866
+      P2MaksyJumpApexFallLandLeftDefault_6: 1962048904
+      P2MaksyJumpApexFallLandLeftDefault_7: -1592566394
+      P2MaksyJumpApexFallLandLeftDefault_8: -1111007359
+      P2MaksyJumpApexFallLandLeftDefault_9: -269386673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

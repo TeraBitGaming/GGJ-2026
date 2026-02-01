@@ -1,50 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 79863451b8557be48a63ef8bdfcd04bd
-=======
-guid: 01dc7a77b55803f46bdf35e4611211a9
->>>>>>> d2b0d2449d53ef6d78ade5f52085c03481f6a5fd
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 4530232060365840051
-    second: P2MaksyIdleLeftResize_0
-  - first:
-      213: 8179965250026951331
-    second: P2MaksyIdleLeftResize_1
-  - first:
-      213: -1747760445672160157
-    second: P2MaksyIdleLeftResize_2
-  - first:
-      213: 2261990115441959940
-    second: P2MaksyIdleLeftResize_3
-  - first:
-      213: 5115471433831964628
-    second: P2MaksyIdleLeftResize_4
-  - first:
-      213: -2025605645245225886
-    second: P2MaksyIdleLeftResize_5
-  - first:
-      213: -514538015927871038
-    second: P2MaksyIdleLeftResize_6
-  - first:
-      213: 2080409032728630039
-    second: P2MaksyIdleLeftResize_7
-  - first:
-      213: 1579040311100564105
-    second: P2MaksyIdleLeftResize_8
-  - first:
-      213: 4251801923313492267
-    second: P2MaksyIdleLeftResize_9
-  - first:
-      213: -6256105853477289893
-    second: P2MaksyIdleLeftResize_10
-  - first:
-      213: -7959864594917518911
-    second: P2MaksyIdleLeftResize_11
-  - first:
-      213: 857935504323671728
-    second: P2MaksyIdleLeftResize_12
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -77,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -91,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,311 +93,9 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> d2b0d2449d53ef6d78ade5f52085c03481f6a5fd
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 66
-        width: 16
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3be11348e0e9ede30800000000000000
-      internalID: 4530232060365840051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_1
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 67
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a255ea3e03158170800000000000000
-      internalID: 8179965250026951331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_2
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 88
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3648b3b7225beb7e0800000000000000
-      internalID: -1747760445672160157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_3
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 67
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 404ec548604346f10800000000000000
-      internalID: 2261990115441959940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_4
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 90
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4df56388a2ecdf640800000000000000
-      internalID: 5115471433831964628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_5
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 33
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 264e124d56a93e3e0800000000000000
-      internalID: -2025605645245225886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_6
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 58
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c95f21966efbd8f0800000000000000
-      internalID: -514538015927871038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_7
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 32
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 713dd472ef81fdc10800000000000000
-      internalID: 2080409032728630039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_8
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 56
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 982eb2dfbc0e9e510800000000000000
-      internalID: 1579040311100564105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_9
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 31
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b216c6e725f610b30800000000000000
-      internalID: 4251801923313492267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_10
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 53
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b508e3e5fd8dd29a0800000000000000
-      internalID: -6256105853477289893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_11
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 0
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c19bb7f251e88190800000000000000
-      internalID: -7959864594917518911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2MaksyIdleLeftResize_12
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 1
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b6786fabcff7eb00800000000000000
-      internalID: 857935504323671728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -454,20 +109,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      P2MaksyIdleLeftResize_0: 4530232060365840051
-      P2MaksyIdleLeftResize_1: 8179965250026951331
-      P2MaksyIdleLeftResize_10: -6256105853477289893
-      P2MaksyIdleLeftResize_11: -7959864594917518911
-      P2MaksyIdleLeftResize_12: 857935504323671728
-      P2MaksyIdleLeftResize_2: -1747760445672160157
-      P2MaksyIdleLeftResize_3: 2261990115441959940
-      P2MaksyIdleLeftResize_4: 5115471433831964628
-      P2MaksyIdleLeftResize_5: -2025605645245225886
-      P2MaksyIdleLeftResize_6: -514538015927871038
-      P2MaksyIdleLeftResize_7: 2080409032728630039
-      P2MaksyIdleLeftResize_8: 1579040311100564105
-      P2MaksyIdleLeftResize_9: 4251801923313492267
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
