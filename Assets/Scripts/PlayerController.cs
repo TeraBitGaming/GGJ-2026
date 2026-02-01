@@ -157,7 +157,7 @@ public class PlayerController : MonoBehaviour
 
         if (!wasGrounded && grounded)
         {
-            bool hardLand = maxFallSpeed < -7f; // tweak value
+            bool hardLand = maxFallSpeed < -.95f; // tweak value
             animator.SetFloat("HardLand", hardLand ? 1f : 0f);
 
             maxFallSpeed = 0f;
