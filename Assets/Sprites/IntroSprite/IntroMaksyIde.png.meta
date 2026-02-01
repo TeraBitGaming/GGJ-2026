@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: bd54cdd7ac3e4634d87658518870c46f
-=======
-guid: ee2911e3a4f0a594c90aea4b4f59aaef
->>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -98,11 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
-    buildTarget: WebGL
-=======
     buildTarget: WindowsStoreApps
->>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -133,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a145aea66062ef4bb920f3581cedc66
-      internalID: -257078447
+      spriteID: 00c3aeae68694114aaeabc53df24b895
+      internalID: 1013161193
       vertices: []
       indices: 
       edges: []
@@ -155,8 +147,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ec1e96c08534ca4e9dd2000a91990bc
-      internalID: -652857220
+      spriteID: c06b8c93a26acfe4ebcd019c98be0466
+      internalID: 1448005897
       vertices: []
       indices: 
       edges: []
@@ -177,8 +169,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d536c28768b654ca13fa12d3079c5b
-      internalID: -581571059
+      spriteID: 6ac009922b8a2e64caf400e88cb242ff
+      internalID: 1027362888
       vertices: []
       indices: 
       edges: []
@@ -199,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 450842b15e637104285f48e2bc8ffd0f
-      internalID: -1154914264
+      spriteID: 9418850cbc8246a45b1e253d9da4d999
+      internalID: 837583982
       vertices: []
       indices: 
       edges: []
@@ -221,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f490429addec7aa48baa0f6412e461b4
-      internalID: -807204537
+      spriteID: 70ad039a6bd76b143980dc4f77c7db69
+      internalID: 1037043877
       vertices: []
       indices: 
       edges: []
@@ -243,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 574ba73d32a4d13478ebd5d4d4070ca9
-      internalID: 1214792708
+      spriteID: 7d1746db1ed4070478875835268aa19c
+      internalID: -249533661
       vertices: []
       indices: 
       edges: []
@@ -265,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63aa0aeae0fb5164c953b56fe34bdbb9
-      internalID: 1030313538
+      spriteID: b098632d09366854ca5ee726ec1a9f76
+      internalID: -1687418243
       vertices: []
       indices: 
       edges: []
@@ -287,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45f1b6e35c11b104eb535480b3738db9
-      internalID: -2093056596
+      spriteID: 4e52d863b3d47ab4c98a606943889fff
+      internalID: 838546759
       vertices: []
       indices: 
       edges: []
@@ -297,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f6de110783273d54daab0e4cb1846c1d
+    spriteID: c217fd385f1c24b40920ee7108b3414e
     internalID: 0
     vertices: []
     indices: 
@@ -309,14 +301,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      IntroMaksyIde_0: -257078447
-      IntroMaksyIde_1: -652857220
-      IntroMaksyIde_2: -581571059
-      IntroMaksyIde_3: -1154914264
-      IntroMaksyIde_4: -807204537
-      IntroMaksyIde_5: 1214792708
-      IntroMaksyIde_6: 1030313538
-      IntroMaksyIde_7: -2093056596
+      IntroMaksyIde_0: 1013161193
+      IntroMaksyIde_1: 1448005897
+      IntroMaksyIde_2: 1027362888
+      IntroMaksyIde_3: 837583982
+      IntroMaksyIde_4: 1037043877
+      IntroMaksyIde_5: -249533661
+      IntroMaksyIde_6: -1687418243
+      IntroMaksyIde_7: 838546759
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
