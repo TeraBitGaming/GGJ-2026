@@ -19,7 +19,7 @@ public class BoostController : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" && other.isTrigger)
+        if (other.tag == "Player")
         {
             other.gameObject.GetComponent<PlayerController>().FORCE_SCALE *= speedMultiplier;
             other.gameObject.GetComponent<PlayerController>().VELOCITY_CLAMP *= speedMultiplier;
@@ -29,7 +29,7 @@ public class BoostController : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Player" && other.isTrigger)
+        if (other.tag == "Player")
         {
             other.gameObject.GetComponent<PlayerController>().FORCE_SCALE /= speedMultiplier;
             other.gameObject.GetComponent<PlayerController>().VELOCITY_CLAMP /= speedMultiplier;
