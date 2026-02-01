@@ -131,10 +131,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   FORCE_SCALE: 150
   VELOCITY_CLAMP: 10
+  DRAG_X: 10
+  GROUND_DRAG_X: 12
   wallCheckSize: {x: 0.1, y: 0.9}
   wallCheckDistance: 0.6
   JUMP_VELOCITY: 14
   secondPlayer: 0
+  ignorePlayerCollision: 0
   speed: 0
   jump: 0
   jumpQueued: 0
@@ -158,7 +161,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 3.5
+  m_LinearDamping: 0
   m_AngularDamping: 0
   m_GravityScale: 4
   m_Material: {fileID: 6200000, guid: 05142424f3157a849bfe34c295f8bc84, type: 2}
@@ -216,5 +219,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.8, y: 1.8}
-  m_EdgeRadius: 0
+  m_Size: {x: 0.6, y: 1.5}
+  m_EdgeRadius: 0.1
