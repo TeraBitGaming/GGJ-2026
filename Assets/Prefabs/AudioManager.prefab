@@ -142,6 +142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc6aad83208685745832d8ef0caa9a8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  audioLibrary:
+    m_Keys: []
+    m_Values: []
   lib_Keys:
   - Music
   - Land
@@ -151,6 +154,8 @@ MonoBehaviour:
   - On
   - Off
   - EndLevel
+  - BreakMask
+  - Intro
   lib_Values:
   - {fileID: 8300000, guid: 2822cbadf3f6cdd428d1c02a1e69f823, type: 3}
   - {fileID: 8300000, guid: ac432591637ac7b45b60a0a3f9257c14, type: 3}
@@ -160,4 +165,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7240bb8ba1e57d1448d46cdcb1642820, type: 3}
   - {fileID: 8300000, guid: 3f45eebc3ed784b45a48c32bb0a44d41, type: 3}
   - {fileID: 8300000, guid: e21426a95db40614ea487d410f2df5fe, type: 3}
+  - {fileID: 8300000, guid: 774c73aa27379a843b2cce42e30f8f24, type: 3}
+  - {fileID: 8300000, guid: 7301e30c283eb2b44882b978c98b9067, type: 3}
   stopMusic: 0
+  startOnWake: 0
