@@ -13,9 +13,10 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField]
-    private float FORCE_SCALE = 150f;
+    public float FORCE_SCALE = 150f;
     [SerializeField]
-    float VELOCITY_CLAMP = 10f;
+
+    public float VELOCITY_CLAMP = 10f;
 
     [Header("Drag")]
 
