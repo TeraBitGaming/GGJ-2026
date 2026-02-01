@@ -3,48 +3,9 @@ fileFormatVersion: 2
 guid: f4e20aa95554c824ba955eb101b93860
 =======
 guid: 26ae7e48f34e9184f886ca06eb1a0009
->>>>>>> 3c6b046dcba539bb685b4ae6e5eddc986c3cc864
+>>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 1377183657501267466
-    second: Maksy_0
-  - first:
-      213: -1468890955094046704
-    second: Maksy_1
-  - first:
-      213: -2477717467726129999
-    second: Maksy_2
-  - first:
-      213: 4032924973861550733
-    second: Maksy_3
-  - first:
-      213: -4952301286757206498
-    second: Maksy_4
-  - first:
-      213: -3374874524890062215
-    second: Maksy_5
-  - first:
-      213: -7203105827751012920
-    second: Maksy_6
-  - first:
-      213: -3457037199026911965
-    second: Maksy_7
-  - first:
-      213: -8034924639679335523
-    second: Maksy_8
-  - first:
-      213: 2071237930002065442
-    second: Maksy_9
-  - first:
-      213: -5017101217191762980
-    second: Maksy_10
-  - first:
-      213: 8104436396500876835
-    second: Maksy_11
-  - first:
-      213: 5806805166158101468
-    second: Maksy_12
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -77,12 +38,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -91,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,16 +67,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,7 +89,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,11 +102,11 @@ TextureImporter:
     buildTarget: WebGL
 =======
     buildTarget: WindowsStoreApps
->>>>>>> 3c6b046dcba539bb685b4ae6e5eddc986c3cc864
+>>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,293 +116,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Maksy_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 66
-        width: 16
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0616d76d3dbc1310800000000000000
-      internalID: 1377183657501267466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_1
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 67
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 018c5d775737d9be0800000000000000
-      internalID: -1468890955094046704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_2
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 88
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b4576237116d9dd0800000000000000
-      internalID: -2477717467726129999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_3
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 67
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8ab1d875e3d7f730800000000000000
-      internalID: 4032924973861550733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_4
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 90
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e167026d734e54bb0800000000000000
-      internalID: -4952301286757206498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_5
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 33
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 972a96e10890a21d0800000000000000
-      internalID: -3374874524890062215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_6
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 58
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c5da51d96d690c90800000000000000
-      internalID: -7203105827751012920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_7
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 32
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32580b0dbf22600d0800000000000000
-      internalID: -3457037199026911965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_8
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 56
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9331ee6c963e7090800000000000000
-      internalID: -8034924639679335523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_9
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 31
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 228a6176ce38ebc10800000000000000
-      internalID: 2071237930002065442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_10
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 53
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd3ea13560daf5ab0800000000000000
-      internalID: -5017101217191762980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_11
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 0
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32e7e26a6fdb87070800000000000000
-      internalID: 8104436396500876835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maksy_12
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 1
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdbb1c8688ae59050800000000000000
-      internalID: 5806805166158101468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -455,20 +130,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Maksy_0: 1377183657501267466
-      Maksy_1: -1468890955094046704
-      Maksy_10: -5017101217191762980
-      Maksy_11: 8104436396500876835
-      Maksy_12: 5806805166158101468
-      Maksy_2: -2477717467726129999
-      Maksy_3: 4032924973861550733
-      Maksy_4: -4952301286757206498
-      Maksy_5: -3374874524890062215
-      Maksy_6: -7203105827751012920
-      Maksy_7: -3457037199026911965
-      Maksy_8: -8034924639679335523
-      Maksy_9: 2071237930002065442
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

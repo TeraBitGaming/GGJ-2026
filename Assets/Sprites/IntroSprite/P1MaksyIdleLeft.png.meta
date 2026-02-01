@@ -3,48 +3,9 @@ fileFormatVersion: 2
 guid: 7b7da0cd46fd6af4fb0ca8d129e5f635
 =======
 guid: b832ac404bbfa3a44950a1c247cc5377
->>>>>>> 3c6b046dcba539bb685b4ae6e5eddc986c3cc864
+>>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -3778975982238520405
-    second: P1MaksyIdleLeft_0
-  - first:
-      213: 8996953718479590352
-    second: P1MaksyIdleLeft_1
-  - first:
-      213: 8716344361730659483
-    second: P1MaksyIdleLeft_2
-  - first:
-      213: 3083120806194503466
-    second: P1MaksyIdleLeft_3
-  - first:
-      213: -1462995095289889898
-    second: P1MaksyIdleLeft_4
-  - first:
-      213: 6659396136304983476
-    second: P1MaksyIdleLeft_5
-  - first:
-      213: -4942186895718693346
-    second: P1MaksyIdleLeft_6
-  - first:
-      213: -8131429775905867034
-    second: P1MaksyIdleLeft_7
-  - first:
-      213: 1327893305708991548
-    second: P1MaksyIdleLeft_8
-  - first:
-      213: -5838204742569716930
-    second: P1MaksyIdleLeft_9
-  - first:
-      213: 4011451045272384040
-    second: P1MaksyIdleLeft_10
-  - first:
-      213: 2632085443262337337
-    second: P1MaksyIdleLeft_11
-  - first:
-      213: 5547856187133065605
-    second: P1MaksyIdleLeft_12
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -77,12 +38,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -91,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,16 +67,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,7 +89,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,11 +102,11 @@ TextureImporter:
     buildTarget: WebGL
 =======
     buildTarget: WindowsStoreApps
->>>>>>> 3c6b046dcba539bb685b4ae6e5eddc986c3cc864
+>>>>>>> 778ab6ea0d1f736cc22eabfec6d9ec83b6bb1203
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,293 +116,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 66
-        width: 16
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: baba0f3bd516e8bc0800000000000000
-      internalID: -3778975982238520405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_1
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 67
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d31b923db99bdc70800000000000000
-      internalID: 8996953718479590352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_2
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 88
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b945fec040da6f870800000000000000
-      internalID: 8716344361730659483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_3
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 67
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2fd6d4c90279ca20800000000000000
-      internalID: 3083120806194503466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_4
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 90
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69b7b1d46b562bbe0800000000000000
-      internalID: -1462995095289889898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_5
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 33
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bd3113c08dea6c50800000000000000
-      internalID: 6659396136304983476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_6
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 58
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e16c8130433d96bb0800000000000000
-      internalID: -4942186895718693346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_7
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 32
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6eab81373bb572f80800000000000000
-      internalID: -8131429775905867034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_8
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 56
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3457621def9d6210800000000000000
-      internalID: 1327893305708991548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_9
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 31
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e33912108b78afea0800000000000000
-      internalID: -5838204742569716930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_10
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 53
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 822745bd8798ba730800000000000000
-      internalID: 4011451045272384040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_11
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 0
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 931d028e3cb078420800000000000000
-      internalID: 2632085443262337337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleLeft_12
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 1
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 589f403fec1fdfc40800000000000000
-      internalID: 5547856187133065605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -455,20 +130,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      P1MaksyIdleLeft_0: -3778975982238520405
-      P1MaksyIdleLeft_1: 8996953718479590352
-      P1MaksyIdleLeft_10: 4011451045272384040
-      P1MaksyIdleLeft_11: 2632085443262337337
-      P1MaksyIdleLeft_12: 5547856187133065605
-      P1MaksyIdleLeft_2: 8716344361730659483
-      P1MaksyIdleLeft_3: 3083120806194503466
-      P1MaksyIdleLeft_4: -1462995095289889898
-      P1MaksyIdleLeft_5: 6659396136304983476
-      P1MaksyIdleLeft_6: -4942186895718693346
-      P1MaksyIdleLeft_7: -8131429775905867034
-      P1MaksyIdleLeft_8: 1327893305708991548
-      P1MaksyIdleLeft_9: -5838204742569716930
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
