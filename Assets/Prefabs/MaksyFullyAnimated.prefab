@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8062803836039395476}
   - component: {fileID: 3200597469968836649}
   - component: {fileID: 5406222817144442542}
+  - component: {fileID: 4105763565192656548}
   m_Layer: 6
   m_Name: MaksyFullyAnimated
   m_TagString: Player
@@ -105,7 +106,7 @@ Animator:
   m_GameObject: {fileID: 1158400124176193317}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9c627641bb462284ba4becf888f528a3, type: 2}
+  m_Controller: {fileID: 9100000, guid: d8cfaf92fd761d342a606c41ed65d9d7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -131,6 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   FORCE_SCALE: 150
   VELOCITY_CLAMP: 10
+  maskRightOverride: {fileID: 22100000, guid: e1502fab2b2d0754e8aea81720013e52, type: 2}
   DRAG_X: 10
   GROUND_DRAG_X: 12
   wallCheckSize: {x: 0.1, y: 0.9}
@@ -141,6 +143,7 @@ MonoBehaviour:
   speed: 0
   jump: 0
   jumpQueued: 0
+  moveInputX: 0
   maxFallSpeed: 0
   wasGrounded: 0
   boxSize: {x: -0.49, y: 2.85}
@@ -221,3 +224,55 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6, y: 1.5}
   m_EdgeRadius: 0.1
+--- !u!114 &4105763565192656548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158400124176193317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 2
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 0.83331245, b: 0.43143564, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000db3511827f4b6c85
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 2
+  m_PointLightOuterRadius: 3
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}

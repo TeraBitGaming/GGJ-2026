@@ -18,8 +18,8 @@ public class HiddenTilemapController : MonoBehaviour
         if (toggleVisionAction.triggered)
         {
             isVisible = !isVisible;
-            gameObject.GetComponent<TilemapCollider2D>().enabled = isVisible;
-            gameObject.GetComponent<TilemapRenderer>().enabled = isVisible; 
+            // gameObject.GetComponent<TilemapCollider2D>().enabled = isVisible;
+            // gameObject.GetComponent<TilemapRenderer>().enabled = isVisible; 
         }
     }
 }
