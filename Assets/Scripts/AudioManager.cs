@@ -43,8 +43,6 @@ public class AudioManager : MonoBehaviour
     {
         source = gameObject.GetComponent<AudioSource>();
         playSound("Music");
-        playSound("Jump");
-        playSound("On");
     }
 
     public void playSound(string soundKey)
