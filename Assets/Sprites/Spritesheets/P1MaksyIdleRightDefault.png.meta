@@ -73,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -111,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,12 +139,12 @@ TextureImporter:
       name: P1MaksyIdleRightDefault_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 66
-        width: 16
-        height: 29
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,12 +161,12 @@ TextureImporter:
       name: P1MaksyIdleRightDefault_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 67
-        width: 16
-        height: 27
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: P1MaksyIdleRightDefault_2
       rect:
         serializedVersion: 2
-        x: 46
-        y: 88
-        width: 7
-        height: 8
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: P1MaksyIdleRightDefault_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 67
-        width: 16
-        height: 27
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,12 +227,12 @@ TextureImporter:
       name: P1MaksyIdleRightDefault_4
       rect:
         serializedVersion: 2
-        x: 78
-        y: 90
-        width: 7
-        height: 6
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,12 +249,12 @@ TextureImporter:
       name: P1MaksyIdleRightDefault_5
       rect:
         serializedVersion: 2
-        x: 8
-        y: 33
-        width: 16
-        height: 27
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: P1MaksyIdleRightDefault_6
       rect:
         serializedVersion: 2
-        x: 14
-        y: 58
-        width: 7
-        height: 7
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: P1MaksyIdleRightDefault_7
       rect:
         serializedVersion: 2
-        x: 40
-        y: 32
-        width: 16
-        height: 27
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,121 +311,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleRightDefault_8
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 56
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f31a7cbe50637cbf0800000000000000
-      internalID: -304215050765754049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleRightDefault_9
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 31
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4920bffb6e0bf3f0800000000000000
-      internalID: -866082646324663989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleRightDefault_10
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 53
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 384cdc9305aa1a780800000000000000
-      internalID: -8673464145794972541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleRightDefault_11
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 0
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 551b45362b6dcef10800000000000000
-      internalID: 2300449571338498389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P1MaksyIdleRightDefault_12
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 1
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c685cc8e781f1570800000000000000
-      internalID: 8439491158522300096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2f29a59baf8ddad4daf52db197eee701
     internalID: 0
     vertices: []
     indices: 
@@ -433,21 +323,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       P1MaksyIdleRightDefault_0: -2503627028478183254
       P1MaksyIdleRightDefault_1: 683674385692145976
-      P1MaksyIdleRightDefault_10: -8673464145794972541
-      P1MaksyIdleRightDefault_11: 2300449571338498389
-      P1MaksyIdleRightDefault_12: 8439491158522300096
       P1MaksyIdleRightDefault_2: -8110434257331866157
       P1MaksyIdleRightDefault_3: 5331370187516463821
       P1MaksyIdleRightDefault_4: 5364228007384990151
       P1MaksyIdleRightDefault_5: -8847437489987040665
       P1MaksyIdleRightDefault_6: 3532195054115349354
       P1MaksyIdleRightDefault_7: -8492023786853446330
-      P1MaksyIdleRightDefault_8: -304215050765754049
-      P1MaksyIdleRightDefault_9: -866082646324663989
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

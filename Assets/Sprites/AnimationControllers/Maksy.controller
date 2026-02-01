@@ -275,38 +275,38 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 829356272495920879}
-    m_Position: {x: 10, y: 190, z: 0}
+    m_Position: {x: -700, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3582213772842326799}
-    m_Position: {x: 470, y: 620, z: 0}
+    m_Position: {x: -400, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5559281165838687206}
-    m_Position: {x: 310, y: 280, z: 0}
+    m_Position: {x: -400, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7544806196338710705}
-    m_Position: {x: 470, y: 200, z: 0}
+    m_Position: {x: -400, y: -100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 452082346913740292}
-    m_Position: {x: 250, y: 430, z: 0}
+    m_Position: {x: -1000, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5310199984552295621}
-    m_Position: {x: 80, y: 530, z: 0}
+    m_Position: {x: -1000, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4410095544544865401}
-    m_Position: {x: -240, y: 530, z: 0}
+    m_Position: {x: -700, y: 260, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 974931755162176133}
-    m_Position: {x: -590, y: 630, z: 0}
+    m_Position: {x: -700, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3095767445919439894}
-    m_Position: {x: -110, y: 420, z: 0}
+    m_Position: {x: -700, y: 360, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_AnyStatePosition: {x: 50, y: -100, z: 0}
+  m_EntryPosition: {x: 50, y: 0, z: 0}
   m_ExitPosition: {x: 590, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 829356272495920879}
@@ -338,6 +338,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: HardLand
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: FacingRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
